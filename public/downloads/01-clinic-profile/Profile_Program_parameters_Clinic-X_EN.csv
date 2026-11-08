@@ -1,0 +1,29 @@
+﻿Parameter,Value
+Response time to a data subject request,"1 month (Art. 12(3)), clinic target 30 days, extendable by 2 months if complex"
+Breach notification to the authority,"Within 72 hours of becoming aware, unless unlikely to result in risk"
+Internal escalation of a suspected incident,"Immediately, to the incident lead (S-01)"
+Staff report of an incident,"Immediately, at most 1 hour from noticing (working hours); deputy incident lead: Nurse C (S-03), who also calls the external privacy adviser if Dr. A is unreachable"
+Initial incident assessment,Within 24 hours of the report
+Post-incident review,Within 30 days of closing the incident
+Breach register retention,5 years from closing the incident (RET-10)
+Vendor notification of a breach to the clinic,"Without delay, within 24 hours of becoming aware (set in the Art. 28 agreement)"
+Reception forwards a patient request to the privacy contact,Within one working day
+CCTV retention,"7 days, absolute maximum 30 days"
+Promotional contacts,"Until consent is withdrawn, maximum 24 months after last interaction or last consent confirmation"
+Staff training,On joining and annually; short role-based session (about 15–20 minutes extra for clinical and reception staff) plus a 5-question mini-test; record kept
+Training format,"New joiners: 45 minutes before they get access to data. Annual refresher: 45 minutes, held each December with the incident drill. Role part: 15–20 minutes extra. Mini-test: 5 questions drawn from a bank of 10. Records kept with the personnel file (RET-11(a)). First programme session: 19 January 2027"
+Incident drill,"Annually, three rotating scenarios"
+Register reviews,ROPA and retention reviewed annually and on any new system or vendor
+Access review,Periodically (clinic proposal: every 6 months; the security policy leaves the interval to be completed)
+Destruction of records past retention,"Once a year, logged in the destruction register"
+Backup rotation,Backups are overwritten after at most 3 months
+Password rule,"At least 12 characters or a passphrase, unique per account; password manager recommended"
+Two-step verification,"Required for e-mail, cloud storage and the practice software where the provider offers it"
+Screen lock,Automatic after at most 5 minutes
+Critical security updates,Applied within 7 days
+Clinic's own backups (non-clinical files),"Weekly, encrypted, one copy kept off the premises; restore test quarterly"
+Maximum accepted downtime of the practice software,"4 hours, then paper forms"
+Access-log spot check,Quarterly
+Security baseline assessment,"December 2026 (38 controls, status and owner per control); repeated yearly"
+Consent for marketing,"Separate, opt-in, withdrawable at any time"
+Patient acknowledgement of the notice,Confirms reading only; not consent

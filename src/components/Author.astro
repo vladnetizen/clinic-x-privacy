@@ -1,0 +1,11 @@
+---
+import { AUTHOR } from '../site.config.mjs';
+const has = AUTHOR.name || AUTHOR.linkedin || AUTHOR.email;
+---
+{has && (
+  <p>
+    {AUTHOR.name && <strong>{AUTHOR.name}</strong>}{AUTHOR.role && <span>, {AUTHOR.role}</span>}.
+    {AUTHOR.linkedin && <span> <a href={AUTHOR.linkedin} rel="me noopener">LinkedIn</a>.</span>}
+    {AUTHOR.email && <span> Contact: <a href={`mailto:${AUTHOR.email}`}>{AUTHOR.email}</a>.</span>}
+  </p>
+)}

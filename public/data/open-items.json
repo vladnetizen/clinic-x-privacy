@@ -1,0 +1,218 @@
+[
+  {
+    "ref": "OI-01",
+    "item": "Retention periods for medical records (RET-01 to RET-04). No single act giving the periods for a small outpatient practice was found.",
+    "modules": "2, 4",
+    "whatClosesIt": "Confirm the applicable act and period with the professional college, the archives rules or a lawyer",
+    "who": "Lawyer or professional body",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-02",
+    "item": "ANSPDCP Decision no. 52/2012 on video surveillance: only a draft was found. Final text and current force unknown.",
+    "modules": "2, 4, 10",
+    "whatClosesIt": "Obtain the official text from the authority",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-03",
+    "item": "Law no. 190/2018 Art. 5: the current consolidated text; how it applies to an existing system, to cameras not aimed at staff, and to a practice with no representatives.",
+    "modules": "10, 11",
+    "whatClosesIt": "Check the consolidated text; legal opinion on the three points",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-04",
+    "item": "Law no. 190/2018 Art. 4 (national ID number): exact wording of the safeguards, including training.",
+    "modules": "7, 8, 11",
+    "whatClosesIt": "Read the consolidated text",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-05",
+    "item": "Law no. 46/2003 (patient rights): the articles on access to and copies of medical documents, confidentiality, and requests about minors or deceased patients.",
+    "modules": "2, 5",
+    "whatClosesIt": "Identify the articles and update the rights procedure",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-06",
+    "item": "Law no. 506/2004 (marketing and cookies): the specific provisions relied on for PA-08 and PA-13.",
+    "modules": "3",
+    "whatClosesIt": "Identify the provisions",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-07",
+    "item": "Art. 9 GDPR conditions for reporting to the health insurance fund (PA-03) and for handling requests (PA-09).",
+    "modules": "3",
+    "whatClosesIt": "Confirm the condition for each report",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-08",
+    "item": "Archiving period for personnel files (RET-11(a)).",
+    "modules": "4, 11",
+    "whatClosesIt": "Confirm with the accountant or an HR adviser",
+    "who": "Accountant",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-09",
+    "item": "Weekends and the 72-hour breach deadline: how EDPB guidance counts them.",
+    "modules": "6",
+    "whatClosesIt": "Read the guidance; confirm the cautious reading",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-10",
+    "item": "The authority's channel for breach notification (and for Art. 36 prior consultation).",
+    "modules": "6, 12",
+    "whatClosesIt": "Check the authority's current procedure at the time of use",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-11",
+    "item": "Whether NIS2 (GEO no. 155/2024, Law no. 124/2025) covers a small outpatient practice.",
+    "modules": "6",
+    "whatClosesIt": "Check the size and sector thresholds",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-12",
+    "item": "The status of the visiting physician: independent controller, joint controller or processor, and the arrangement for using the practice's system.",
+    "modules": "1, 3, 5, 6, 9, 11",
+    "whatClosesIt": "Legal check of the arrangement; written agreement",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-13",
+    "item": "The accounting firm's role split: processor for payroll, independent for statutory accounting.",
+    "modules": "9",
+    "whatClosesIt": "Confirm the split",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-14",
+    "item": "Whether the CCTV installer can reach recordings (and so is a processor).",
+    "modules": "9, 10",
+    "whatClosesIt": "Check in the provider review",
+    "who": "Practice",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-15",
+    "item": "The website analytics tool: which one, and whether it transfers data outside the EU.",
+    "modules": "3, 9",
+    "whatClosesIt": "Identify it in the provider review; rescreen (SCR-2027-01)",
+    "who": "Practice",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-16",
+    "item": "Legal review of the Art. 28 agreement template, and the time limits in it (24 hours, 30 days, 5 and 15 days), which are recommendations.",
+    "modules": "9",
+    "whatClosesIt": "Legal review before use with a real provider",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-17",
+    "item": "Professional secrecy: the sources of the duty, and any duty to train staff on it. Sector platforms (health-record, insurance) may have own security rules.",
+    "modules": "7, 8",
+    "whatClosesIt": "Identify sources and sector rules",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-18",
+    "item": "Product features: two-step verification and access logs in the practice software; access log on the CCTV recorder.",
+    "modules": "7, 10, 11",
+    "whatClosesIt": "Confirm with the providers (SEC-03, SEC-32)",
+    "who": "Practice",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-19",
+    "item": "Final texts: EDPB Guidelines 3/2019 (version 2.0), the CJEU judgment in C-708/18, and the official text of ANSPDCP Decision no. 174/2018.",
+    "modules": "10, 12",
+    "whatClosesIt": "Read the official texts; check paragraph numbers",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-20",
+    "item": "Employee-notice details: REGES and the labour inspectorate; the basis and the provider's role for occupational health.",
+    "modules": "11",
+    "whatClosesIt": "Check the current rules",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-21",
+    "item": "The EDPB DPIA template: a final version after the consultation, and whether ANSPDCP adopted it or its own.",
+    "modules": "12",
+    "whatClosesIt": "Check the EDPB and ANSPDCP sites",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-22",
+    "item": "Whether an AI note-taking tool is regulated as a medical device or under the EU AI Act.",
+    "modules": "12",
+    "whatClosesIt": "Check against the tool's actual function",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-23",
+    "item": "Recording consultations under Romanian health law; whether the legal basis for the recording is Art. 6(1)(b).",
+    "modules": "12",
+    "whatClosesIt": "Legal opinion",
+    "who": "Lawyer",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-24",
+    "item": "Retention of items with no legal period: access logs, DPIA files, training records.",
+    "modules": "4, 8, 11, 12",
+    "whatClosesIt": "Decide, record as the practice's own choice, add rows to the schedule",
+    "who": "Practice",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-25",
+    "item": "How the one-month clock behaves when more information is needed to check identity (EDPB guidance on access).",
+    "modules": "5",
+    "whatClosesIt": "Read the guidance",
+    "who": "Author",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-26",
+    "item": "Exceptions in accounting retention (assets with a long useful life) and the current text of Art. 25 of Law no. 82/1991.",
+    "modules": "4",
+    "whatClosesIt": "Confirm with the accountant",
+    "who": "Accountant",
+    "status": "Open"
+  },
+  {
+    "ref": "OI-27",
+    "item": "Whether Clinic X needs a data protection officer: Art. 37(1)(c) GDPR (large-scale special-category processing as a core activity) and any national rule. The profile assumes not, relying on recital 91.",
+    "modules": "1, 3",
+    "whatClosesIt": "Legal view on the point; record the reasoning in the record of processing and revisit yearly",
+    "who": "Lawyer",
+    "status": "Open"
+  }
+]

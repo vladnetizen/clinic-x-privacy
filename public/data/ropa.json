@@ -1,0 +1,395 @@
+{
+  "controller": {
+    "Controller": "Clinic X – X Medical S.R.L.",
+    "Tax code": "RO 00000000 (invalid on purpose)",
+    "Address": "Str. X nr. 0, Town X, Romania",
+    "Contact": "+40 700 000 000 / privacy@clinic-x.example",
+    "Legal representative": "Dr. A, owner-physician",
+    "Data protection contact person": "Dr. A, owner-physician – privacy@clinic-x.example",
+    "Data Protection Officer (DPO)": "Not appointed. The assessment of 1 December 2026 concluded that appointment is not mandatory because the practice does not carry out large-scale processing (recital 91 GDPR). Reviewed yearly.",
+    "Joint controllers": "None. The visiting physician (Dr. B) is treated as a separate controller for the records of his own patients; the arrangement is to be confirmed.",
+    "Representative in the EU": "Not applicable."
+  },
+  "activities": [
+    {
+      "code": "PA-01",
+      "title": "Appointments",
+      "optional": false,
+      "basisShort": "Art. 6(1)(b)",
+      "art9Short": "Sometimes – (h)",
+      "retentionCodes": [
+        "RET-07"
+      ],
+      "purpose": "Scheduling patients for consultations and investigations and managing the clinic diary.",
+      "subjects": "Patients; legal representatives or carers who make the appointment.",
+      "data": "Name, phone, e-mail; date and time of the appointment; family or internal medicine consultation, ECG, ultrasound, blood sampling; reason for the appointment, only as far as necessary (it may reveal health information).",
+      "basis": "Art. 6(1)(b) – steps taken at the patient's request before entering into the medical services contract, and its performance.",
+      "art9": "Art. 9(2)(h), where the reason for the appointment contains health data.",
+      "source": "The data subject (phone, e-mail, contact form on the website, see PA-13, in person at reception).",
+      "recipients": "Medical and reception staff; the Practice Software Provider (V-01) and the E-mail Provider (V-06) – processors.",
+      "transfers": "No. Hosting is in the EU; the e-mail provider's support access is checked in the vendor review.",
+      "retention": "See RET-07 in the retention schedule.",
+      "security": "Individual accounts; the diary is not visible to patients; no diagnoses are written in the diary; reception screen positioned away from the waiting room.",
+      "assessments": "No separate assessment needed. The website contact form is covered in PA-13.",
+      "owner": "Receptionist D"
+    },
+    {
+      "code": "PA-02",
+      "title": "Providing medical services and keeping medical records",
+      "optional": false,
+      "basisShort": "Art. 6(1)(b), (c)",
+      "art9Short": "Yes – (h)",
+      "retentionCodes": [
+        "RET-01",
+        "RET-02"
+      ],
+      "purpose": "Consultations, diagnosis, treatment, prescriptions, medical recommendations and referrals; creating and keeping the medical record and the registers required by law.",
+      "subjects": "Patients; patients' legal representatives.",
+      "data": "Identification data (name, national ID number, ID document); contact data; medical history, diagnosis, treatments, tests, prescriptions, recommendations; health insurance data.",
+      "basis": "Art. 6(1)(b) – the medical services contract; (c) – legal obligations (medical records). National ID number: Art. 4 of Law no. 190/2018.",
+      "art9": "Art. 9(2)(h), in compliance with Art. 9(3) (professional secrecy).",
+      "source": "The patient; other doctors or healthcare providers (referrals, results); the health insurance fund – checking insured status.",
+      "recipients": "Doctors and medical staff involved in care; medical collaborators when needed; the Practice Software Provider (V-01) and the IT Support Provider (V-03; remote support, no routine access to records) – processors; authorities, on a lawful request.",
+      "transfers": "No. Hosting is in the EU (see V-01).",
+      "retention": "See RET-01 and RET-02.",
+      "security": "Role-based access, only for staff involved in care; individual accounts; access log kept by the practice software and checked during the periodic access review; paper files in locked rooms; backups; staff confidentiality undertaking.",
+      "assessments": "DPIA threshold assessment: December 2026 (see module 12). Processing by a small practice is in principle not \"large scale\" (recital 91 GDPR); documented in the threshold assessment.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-03",
+      "title": "Reporting to the health insurance fund and other authorities",
+      "optional": true,
+      "basisShort": "Art. 6(1)(c)",
+      "art9Short": "Yes – (h)",
+      "retentionCodes": [
+        "RET-01",
+        "RET-05"
+      ],
+      "purpose": "Meeting legal obligations for reporting, claims and inspections by the health insurance fund and other competent authorities.",
+      "subjects": "Insured patients.",
+      "data": "Identification data including the national ID number; data on services provided; diagnosis, as far as the reporting requires.",
+      "basis": "Art. 6(1)(c) – legal obligations. National ID number: Art. 4 of Law no. 190/2018.",
+      "art9": "Art. 9(2)(h). To be confirmed for specific reports; a public-interest condition such as (i) may fit better.",
+      "source": "The medical record; the patient.",
+      "recipients": "The county health insurance fund and other competent authorities, through their IT platforms.",
+      "transfers": "No.",
+      "retention": "See RET-01 and RET-05.",
+      "security": "Transmission only through the official platforms; individual user accounts; the digital certificate is held by Dr. A.",
+      "assessments": "No separate assessment needed.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-04",
+      "title": "Invoicing and accounting",
+      "optional": false,
+      "basisShort": "Art. 6(1)(c), (b)",
+      "art9Short": "Possibly – (h)",
+      "retentionCodes": [
+        "RET-05"
+      ],
+      "purpose": "Issuing invoices and receipts, collecting payments, accounting and tax records.",
+      "subjects": "Patients, or the person who pays for the services.",
+      "data": "Name, address; national ID number only where an insurance claim or the law requires it; name of the service (minimum description); amount; method of payment; health insurance data where applicable.",
+      "basis": "Art. 6(1)(c) – accounting and tax law; (b) – the services contract.",
+      "art9": "Art. 9(2)(h), where the description of a service reveals health data; descriptions are kept to the minimum necessary.",
+      "source": "The patient; the medical record.",
+      "recipients": "The Accounting Firm (V-04) – processor; tax authorities; the Card Payment Provider (V-11) – separate controller; the Shredding Provider (V-10) – processor.",
+      "transfers": "No.",
+      "retention": "See RET-05.",
+      "security": "Accounting documents in locked files; sent to the accountant through an encrypted channel agreed with the Accounting Firm; limited access.",
+      "assessments": "No separate assessment needed.",
+      "owner": "Receptionist D"
+    },
+    {
+      "code": "PA-05",
+      "title": "Laboratories and other healthcare providers (referrals and results)",
+      "optional": false,
+      "basisShort": "Art. 6(1)(b), (c)",
+      "art9Short": "Yes – (h)",
+      "retentionCodes": [
+        "RET-03",
+        "RET-04",
+        "RET-01"
+      ],
+      "purpose": "Sending and receiving referrals, test and investigation results and medical letters, to ensure continuity of care.",
+      "subjects": "Patients.",
+      "data": "Identification data; relevant medical data (tests, imaging, diagnosis).",
+      "basis": "Art. 6(1)(b) and (c).",
+      "art9": "Art. 9(2)(h).",
+      "source": "The patient; the medical record; laboratories and other providers.",
+      "recipients": "The Partner Laboratory (V-08) and the specialists to whom the patient is referred – separate controllers.",
+      "transfers": "No. Providers are in the EU.",
+      "retention": "See RET-03, RET-04 and RET-01.",
+      "security": "Transmission through secure channels (results are received on the clinic business e-mail and filed in the patient record); medical data is not sent through personal messaging apps.",
+      "assessments": "No separate assessment needed.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-06",
+      "title": "Communications about appointments and treatment",
+      "optional": false,
+      "basisShort": "Art. 6(1)(b)",
+      "art9Short": "Possibly – (h)",
+      "retentionCodes": [
+        "RET-07"
+      ],
+      "purpose": "Appointment reminders and confirmations; information about treatment recommendations or available results (service messages, not marketing).",
+      "subjects": "Patients.",
+      "data": "Name, phone or e-mail, date and time of the appointment; minimal medical information.",
+      "basis": "Art. 6(1)(b).",
+      "art9": "Art. 9(2)(h), where a message could reveal health data; messages are written without diagnosis or medical details.",
+      "source": "The patient.",
+      "recipients": "The Messaging Provider (V-02) – processor.",
+      "transfers": "No (EU provider).",
+      "retention": "See RET-07.",
+      "security": "Message templates without medical data; checking the phone number / e-mail address; sender name shows the clinic only, not a medical specialty.",
+      "assessments": "None needed while the provider stays in the EU.",
+      "owner": "Receptionist D"
+    },
+    {
+      "code": "PA-07",
+      "title": "Video surveillance (CCTV)",
+      "optional": false,
+      "basisShort": "Art. 6(1)(f)",
+      "art9Short": "No",
+      "retentionCodes": [
+        "RET-06"
+      ],
+      "purpose": "Safety of patients and staff, protection of property, prevention and investigation of security incidents.",
+      "subjects": "Patients, visitors, staff, couriers and suppliers.",
+      "data": "Video images from common areas; date and time. The system does not record sound.",
+      "basis": "Art. 6(1)(f) – the clinic's legitimate interest.",
+      "art9": "The clinic does not aim to process special-category data. The medical context could allow inferences about health, so cameras are limited to common areas and access to images is restricted.",
+      "source": "The surveillance cameras.",
+      "recipients": "Authorised staff (Dr. A only); authorities, on a lawful request; the CCTV Installer (V-05) – processor, only if it has access to recordings, under supervision.",
+      "transfers": "No. Recordings stay on the local recorder.",
+      "retention": "See RET-06 (7 days; never more than 30).",
+      "security": "Access with an individual account and password; automatic deletion by overwriting; recorder in a locked cabinet; log of video exports; signage at the entrance; no cameras in consultation rooms, the treatment room, toilets or the staff room.",
+      "assessments": "Legitimate interest assessment (LIA) – module 10, completed December 2026. DPIA threshold check: December 2026. For employees: Art. 5 of Law no. 190/2018 (well-founded legitimate interest, prior information, consultation of the union or employee representatives, necessity of the measure, storage of no more than 30 days, with the exceptions in law).",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-08",
+      "title": "Promotional communications",
+      "optional": true,
+      "basisShort": "Art. 6(1)(a)",
+      "art9Short": "No",
+      "retentionCodes": [
+        "RET-08"
+      ],
+      "purpose": "Information about new services and clinic campaigns, only with the person's consent.",
+      "subjects": "Patients who have given consent.",
+      "data": "Name, e-mail address or phone; proof of consent (date and method).",
+      "basis": "Art. 6(1)(a) – consent.",
+      "art9": "No health data is processed for promotion (the contact list is not segmented by diagnosis or treatment).",
+      "source": "The data subject.",
+      "recipients": "The Messaging Provider (V-02) – processor.",
+      "transfers": "No (EU provider).",
+      "retention": "See RET-08.",
+      "security": "List kept separate from the medical records; unsubscribe option in every message; withdrawal of consent is processed immediately.",
+      "assessments": "Check compliance with the rules on unsolicited commercial communications (Law no. 506/2004 – to be verified).",
+      "owner": "Receptionist D"
+    },
+    {
+      "code": "PA-09",
+      "title": "Handling data subject requests",
+      "optional": false,
+      "basisShort": "Art. 6(1)(c)",
+      "art9Short": "Possibly",
+      "retentionCodes": [
+        "RET-09"
+      ],
+      "purpose": "Receiving, assessing and answering requests to exercise rights under the GDPR, and keeping proof of the reply.",
+      "subjects": "Patients, employees and others who make requests; their representatives.",
+      "data": "Identification data; content of the request; proof of identity; correspondence and the reply.",
+      "basis": "Art. 6(1)(c) – the legal obligation in Art. 12–22 GDPR.",
+      "art9": "Where the request contains health data: Art. 9(2)(f) or (h) – to be confirmed.",
+      "source": "The data subject.",
+      "recipients": "Authorised staff; the external privacy adviser, if needed.",
+      "transfers": "No.",
+      "retention": "See RET-09.",
+      "security": "Register kept separate from the medical record; identity checked before data is released; limited access.",
+      "assessments": "No separate assessment needed.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-10",
+      "title": "Handling personal data breaches",
+      "optional": false,
+      "basisShort": "Art. 6(1)(c)",
+      "art9Short": "No",
+      "retentionCodes": [
+        "RET-10"
+      ],
+      "purpose": "Documenting every personal data breach (Art. 33(5) GDPR), notifying the supervisory authority and informing affected people when required.",
+      "subjects": "People affected by a breach (patients, staff).",
+      "data": "Description of the breach; categories and approximate number of people and records; consequences; measures taken; contact details.",
+      "basis": "Art. 6(1)(c) – the obligations in Art. 33 and 34 GDPR.",
+      "art9": "The register does not contain the medical data of affected people, only categories and numbers.",
+      "source": "Staff; providers; affected people.",
+      "recipients": "The supervisory authority; affected people; the IT Support Provider (V-03) and the external privacy adviser, if involved.",
+      "transfers": "No.",
+      "retention": "See RET-10.",
+      "security": "Register with limited access; breaches are reported internally without delay.",
+      "assessments": "No separate assessment needed.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-11",
+      "title": "HR and payroll",
+      "optional": false,
+      "basisShort": "Art. 6(1)(b), (c)",
+      "art9Short": "Yes – Art. 9(2)(b)",
+      "retentionCodes": [
+        "RET-11"
+      ],
+      "purpose": "Concluding and running employment or collaboration contracts, payroll, tax and social obligations, working time records, health and safety at work, occupational health.",
+      "subjects": "Employees and collaborators.",
+      "data": "Identification data including the national ID number; contact; education and qualifications; licence to practise and professional authorisations; contract; salary and bank account; attendance and leave; occupational health certificate.",
+      "basis": "Art. 6(1)(b) and (c).",
+      "art9": "Art. 9(2)(b) – obligations in employment and social security law (for example sick leave, occupational health certificate).",
+      "source": "The data subject; authorities; the occupational health provider.",
+      "recipients": "The Accounting Firm (V-04) – processor for payroll; labour, tax and social security authorities; the Occupational Health Provider (V-12) – separate controller; the professional college; the employee's bank.",
+      "transfers": "No.",
+      "retention": "See RET-11.",
+      "security": "Personnel files locked; access limited to management and Dr. A.",
+      "assessments": "Employee privacy notice – module 11.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-12",
+      "title": "Recruitment",
+      "optional": true,
+      "basisShort": "Art. 6(1)(b), (a)",
+      "art9Short": "No",
+      "retentionCodes": [
+        "RET-12"
+      ],
+      "purpose": "Assessing candidates for open positions.",
+      "subjects": "Candidates.",
+      "data": "CV, contact details, education and experience, other information the candidate sends.",
+      "basis": "Art. 6(1)(b) – steps taken at the candidate's request; (a) – consent, to keep the CV for future positions.",
+      "art9": "No special-category data is requested.",
+      "source": "The candidate.",
+      "recipients": "Staff designated for recruitment, in practice Dr. A.",
+      "transfers": "No.",
+      "retention": "See RET-12.",
+      "security": "Limited access; CVs are not circulated through insecure channels.",
+      "assessments": "No separate assessment needed.",
+      "owner": "Dr. A"
+    },
+    {
+      "code": "PA-13",
+      "title": "Website and cookies",
+      "optional": true,
+      "basisShort": "Art. 6(1)(f), (a)",
+      "art9Short": "No",
+      "retentionCodes": [
+        "RET-13"
+      ],
+      "purpose": "Operation and security of the website, informing the public, contact form.",
+      "subjects": "Website visitors.",
+      "data": "IP address; strictly necessary cookies; analytics cookies, with consent; data entered in the form.",
+      "basis": "Art. 6(1)(f) – website security and strictly necessary cookies; (a) – consent for non-essential cookies (Law no. 506/2004 – to be verified).",
+      "art9": "The form does not ask for health data. Visitors are asked not to write medical details in the form.",
+      "source": "The visitor.",
+      "recipients": "The Hosting Provider (V-07) – processor; the analytics tool provider, to be confirmed in the vendor review.",
+      "transfers": "No by design; to be confirmed for the analytics tool.",
+      "retention": "See RET-13.",
+      "security": "HTTPS; regular updates; cookie banner; administrator access with strong authentication.",
+      "assessments": "Cookie policy – published on the website with the cookie banner.",
+      "owner": "Dr. A"
+    }
+  ],
+  "processors": [
+    [
+      "Practice Software Provider (V-01)",
+      "Medical software, hosting, maintenance",
+      "PA-01–05",
+      "Processor",
+      "Yes, Dec 2026",
+      "EU"
+    ],
+    [
+      "IT Support Provider (V-03)",
+      "Remote IT support",
+      "PA-02, 13",
+      "Processor",
+      "Yes, Dec 2026",
+      "EU"
+    ],
+    [
+      "Accounting Firm (V-04)",
+      "Accounting, payroll",
+      "PA-04, 11",
+      "Processor",
+      "Yes, Dec 2026",
+      "EU"
+    ],
+    [
+      "Messaging Provider (V-02)",
+      "Messages to patients",
+      "PA-06, 08",
+      "Processor",
+      "Yes, Dec 2026",
+      "EU"
+    ],
+    [
+      "E-mail Provider (V-06)",
+      "Business e-mail",
+      "PA-01, 05, 09, 12",
+      "Processor",
+      "Standard DPA reviewed",
+      "EU region"
+    ],
+    [
+      "CCTV Installer (V-05)",
+      "Maintenance of the video system",
+      "PA-07",
+      "Processor (if it has access)",
+      "Yes (limited), Dec 2026",
+      "EU"
+    ],
+    [
+      "Hosting Provider (V-07)",
+      "Website",
+      "PA-13",
+      "Processor",
+      "Yes, Dec 2026",
+      "EU"
+    ],
+    [
+      "Shredding Provider (V-10)",
+      "Paper destruction",
+      "PA-02, 04, 11",
+      "Processor",
+      "Yes, Dec 2026",
+      "EU"
+    ],
+    [
+      "Partner Laboratory (V-08)",
+      "Tests, investigations",
+      "PA-05",
+      "Separate controller",
+      "Not applicable",
+      "EU"
+    ],
+    [
+      "Occupational Health Provider (V-12)",
+      "Medical checks for staff",
+      "PA-11",
+      "Separate controller",
+      "Not applicable",
+      "EU"
+    ],
+    [
+      "Card Payment Provider (V-11)",
+      "Payments",
+      "PA-04",
+      "Separate controller",
+      "Not applicable",
+      "EU"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+﻿ID,Asset,What it holds,Hosting / location,Owner
+A-01,Practice Software (cloud) — practice management and electronic records,"Patient files, appointments, billing, imaging attachments","Vendor cloud, EU data centre",S-01
+A-02,Reception PC,Browser access to A-01; scanned documents (temporary),Reception,S-04
+A-03,Doctor laptop (S-01),Browser access to A-01; admin files,Encrypted disk,S-01
+A-04,Visiting-physician laptop (S-02),His own tools; accesses A-01 with his own account,His device,S-02
+A-05,Ultrasound unit,"Images, short-term local storage, exported to A-01",Treatment room,S-02
+A-06,ECG unit,"Traces, exported to A-01",Treatment room,S-03
+A-07,Business e-mail (shared mailbox + personal boxes),"Appointment requests, lab results, referrals","International cloud suite, EU region",S-01
+A-08,SMS/e-mail reminder service,"Names, phone numbers, appointment times",Vendor cloud,S-04
+A-09,Website with contact form and analytics,"Form submissions, cookie data","Hosting provider, EU",S-01
+A-10,CCTV system (4 cameras + NVR),"Video, 7-day buffer","Locked cabinet, admin room",S-01
+A-11,Paper records,"Consent/acknowledgement forms, lab printouts, HR files","Locked cabinet, admin room",S-04 / S-01
+A-12,Admin backup disk,"Encrypted copy of non-clinical files (HR, contracts)",Locked cabinet,S-01
+A-13,Wi-Fi,Staff network and separate guest network,"Router, admin room",S-06
+A-14,Staff mobile phones,"Calls, texts to patients only for appointment logistics; no clinical data on messaging apps",Personal/company phones,Each user

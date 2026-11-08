@@ -1,0 +1,14 @@
+﻿Code,Activity,Applies here,Main systems / vendors,Retention code
+PA-01,Appointments,Yes,"A-01, A-02, phone, A-07",RET-07
+PA-02,Medical care and records,Yes,"A-01, A-05, A-06, A-11","RET-01, RET-02"
+PA-03,Reporting to the health insurance fund and authorities,Yes,A-01,"RET-01, RET-05"
+PA-04,Invoicing and accounting,Yes,"A-01, V-04",RET-05
+PA-05,Laboratory and partner referrals and results,Yes,"A-07, A-01, V-08","RET-03, RET-04, RET-01"
+PA-06,Appointment and treatment communications,Yes,"A-08, V-02",RET-07
+PA-07,CCTV,Yes,A-10,RET-06
+PA-08,"Promotional communications (newsletter, consent-based)",Yes,"A-08, V-02",RET-08
+PA-09,Data subject requests,Yes,"A-07, request register",RET-09
+PA-10,Security incidents,Yes,Breach register,RET-10
+PA-11,HR and payroll,Yes,"A-11, A-12, V-04",RET-11
+PA-12,Recruitment (spontaneous and advertised CVs),Yes,A-07,RET-12
+PA-13,Website and cookies,Yes,"A-09, V-07",RET-13

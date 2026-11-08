@@ -1,0 +1,4 @@
+# Copy this file to .privacy-denylist.txt (which is git-ignored) and list, one per line,
+# every real name, company, address, number or file name that must never appear on the site.
+# `npm run check` then fails if any of them shows up in a page, data file, Word file or built page.
+# Lines starting with # are ignored. Matching is case-insensitive.

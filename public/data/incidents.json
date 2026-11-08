@@ -1,0 +1,267 @@
+{
+  "deadlines": [
+    {
+      "stage": "Internal report",
+      "deadline": "Immediately, and in any case within 1 hour of noticing (working hours)."
+    },
+    {
+      "stage": "Containment",
+      "deadline": "Starts at once, within the first hour after the report."
+    },
+    {
+      "stage": "Initial assessment and classification",
+      "deadline": "Within 24 hours of the report."
+    },
+    {
+      "stage": "Notifying the authority (if needed)",
+      "deadline": "Without undue delay and, where feasible, no later than 72 hours after the practice became aware of the breach (Art. 33(1) GDPR). The practice plans on the 72 hours running through weekends and days off. If the deadline is missed, the reasons for the delay are given with the notification."
+    },
+    {
+      "stage": "Informing the people affected (if the risk is high)",
+      "deadline": "Without undue delay (Art. 34(1) GDPR)."
+    },
+    {
+      "stage": "Provider tells the practice",
+      "deadline": "Without delay, within 24 hours of the provider becoming aware."
+    },
+    {
+      "stage": "Review after the incident",
+      "deadline": "Within 30 days of closing the incident."
+    }
+  ],
+  "severity": [
+    {
+      "level": "Low",
+      "description": "No risk to people is likely.",
+      "action": "Record in the register with the reasoning. Fix the cause."
+    },
+    {
+      "level": "Medium",
+      "description": "A risk is likely, but not a high one.",
+      "action": "Notify the authority within 72 hours. Record. Clinic policy: also tell the people affected when health data was seen by an unauthorised person, even though the law requires this only for high risk."
+    },
+    {
+      "level": "High",
+      "description": "A high risk is likely (for example health data of several people exposed, or unencrypted data lost).",
+      "action": "Notify the authority within 72 hours and inform the people affected."
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Lab results e-mailed to another patient",
+      "type": "Confidentiality",
+      "classification": "Medium or high, depending on what the recipient saw. The authority is normally notified. Whether to inform the patient is assessed (often yes). Ask the recipient to delete."
+    },
+    {
+      "scenario": "Text message with appointment details sent to a wrong number",
+      "type": "Confidentiality",
+      "classification": "Usually low or medium; depends on the content. Health detail raises it."
+    },
+    {
+      "scenario": "Doctor's laptop lost or stolen, **unencrypted**, with patient data",
+      "type": "Confidentiality",
+      "classification": "High: authority and people. Block access and, if possible, wipe remotely."
+    },
+    {
+      "scenario": "Same laptop, **encrypted** with a strong password; clinical data lives in the cloud application",
+      "type": "Confidentiality / availability",
+      "classification": "Low or medium with reasoning; informing people is usually not needed (Art. 34(3)(a)). End the application sessions and change passwords."
+    },
+    {
+      "scenario": "Ransomware: files encrypted, practice software unreachable",
+      "type": "Availability (and possibly confidentiality)",
+      "classification": "Medium or high; the authority is normally notified. If data theft is suspected, treat as high. Restore from the verified backup."
+    },
+    {
+      "scenario": "Practice software account taken over through phishing",
+      "type": "Confidentiality",
+      "classification": "High if records were accessible."
+    },
+    {
+      "scenario": "Staff member opens records with no care or administrative reason",
+      "type": "Confidentiality",
+      "classification": "Medium or high; disciplinary measures also apply."
+    },
+    {
+      "scenario": "Paper files or lab printouts lost or stolen",
+      "type": "Confidentiality / availability",
+      "classification": "Depends on how many people; health data: usually high."
+    },
+    {
+      "scenario": "Visiting physician loses a device with his own patients' records",
+      "type": "Confidentiality",
+      "classification": "He is an independent controller and decides on notification; the practice helps. Arrangement to be confirmed."
+    },
+    {
+      "scenario": "CCTV footage given to or seen by someone with no right to it",
+      "type": "Confidentiality",
+      "classification": "Medium; check who, what was visible, and whether the extract was logged."
+    },
+    {
+      "scenario": "Short outage of the practice software, no data lost",
+      "type": "Availability",
+      "classification": "Usually low, recorded; assess the effect on care."
+    },
+    {
+      "scenario": "A provider reports a breach on its side",
+      "type": "Any",
+      "classification": "The practice assesses and decides on notification, because it is the controller. The 72 hours run from the provider's notice."
+    }
+  ],
+  "templates": [
+    {
+      "code": "I1",
+      "title": "Internal report of an incident (employee → incident lead)",
+      "text": [
+        "Reported by: [name]  |  Date and time of the report: [ ]",
+        "What happened (briefly, facts only): [ ]",
+        "When and where it happened / was noticed: [ ]",
+        "Data or systems involved (do not write medical data in clear): [ ]",
+        "How many people may be affected (estimate): [ ]",
+        "What you have already done: [ ]",
+        "Who else knows: [ ]",
+        "Do not delete messages, files or logs, and do not try to fix it alone. Reporting an incident does not lead to sanctions; hiding one is a serious problem."
+      ]
+    },
+    {
+      "code": "I2",
+      "title": "Incident assessment sheet (internal)",
+      "text": [
+        "Register no.: [ ]  |  Assessor: [ ]  |  Date of assessment: [ ]",
+        "1. Facts: what, when, how, who found it, cause (if known): [ ]",
+        "2. Type of breach: ☐ confidentiality  ☐ integrity  ☐ availability",
+        "3. Data involved: ☐ identification  ☐ contact  ☐ health  ☐ payment  ☐ national ID number (CNP)  ☐ images  ☐ other: [ ]",
+        "4. People affected: categories [ ]; approximate number [ ]; records affected [ ]; children or vulnerable people: ☐ yes ☐ no",
+        "5. Protections in place (encryption, backup, recipient's confirmation of deletion): [ ]",
+        "6. Likely consequences for people: [ ]",
+        "7. Classification: ☐ low  ☐ medium  ☐ high. Reasoning: [ ]",
+        "8. Decision: notify the authority: ☐ yes ☐ no (reasoning: [ ])  |  inform people: ☐ yes ☐ no (reasoning: [ ])",
+        "9. Containment and remedy (measures, who, by when): [ ]",
+        "10. Approved by the physician in charge: [name, date]"
+      ]
+    },
+    {
+      "code": "I3",
+      "title": "Content of the notification to the authority (Art. 33(3)) – to be transferred into the authority's form",
+      "text": [
+        "Type of notification: ☐ initial  ☐ supplement  ☐ final",
+        "1. Controller: [practice name, address]. Contact person: [name, role, phone, e-mail].",
+        "2. Times: date and time of the incident: [ ]; date and time of awareness: [ ]. [If more than 72 hours have passed: reasons for the delay.]",
+        "3. Nature of the breach: ☐ confidentiality  ☐ integrity  ☐ availability. Description: [ ]",
+        "4. Categories and approximate number of people concerned: [patients / employees / other; number]",
+        "5. Categories and approximate number of data records: [identification, contact, health, etc.; number]",
+        "6. Likely consequences: [ ]",
+        "7. Measures taken or proposed (including to reduce the effects): [ ]",
+        "8. Informing the people: ☐ done on [date]  ☐ planned for [date]  ☐ not needed (reasoning: [ ])",
+        "9. Other authorities / other Member States involved: [no / yes – which]",
+        "10. Information to be sent later: [what, and by which date]"
+      ]
+    },
+    {
+      "code": "I4",
+      "title": "Informing the people affected (Art. 34)",
+      "text": [
+        "[Practice name] | [Address] | [E-mail] | [Phone]",
+        "No. [ref] / [date]",
+        "To: [Name of the person affected]",
+        "Subject: Information about a security incident involving your personal data",
+        "Dear [name],",
+        "We are writing to tell you about an incident that affected your personal data.",
+        "What happened: [clear description in simple terms: what, when, how].",
+        "What data is involved: [categories of data, without reproducing them].",
+        "What consequences may follow: [ ].",
+        "What we have done: [containment and remedy]. We have informed the National Supervisory Authority for Personal Data Processing.",
+        "What you can do: [specific advice, for example: be alert to unusual messages or calls that mention your health; do not give out passwords; contact us if you notice anything unusual].",
+        "We apologise for this. For any question, you can contact us at [contact person, phone, e-mail].",
+        "[You have the right to lodge a complaint with the National Supervisory Authority for Personal Data Processing (ANSPDCP, www.dataprotection.ro, anspdcp@dataprotection.ro) and to apply to the competent court.]",
+        "Kind regards,",
+        "[name, role]"
+      ]
+    },
+    {
+      "code": "I5",
+      "title": "Request to delete a message sent to the wrong recipient",
+      "text": [
+        "[Practice name] | [Address] | [E-mail] | [Phone]",
+        "No. [ref] / [date]",
+        "To: [Recipient]",
+        "Subject: Message sent in error – please delete it",
+        "Dear [name],",
+        "On [date] a message was sent to you in error by [practice name]. It contains confidential information that is not meant for you.",
+        "Please: do not read or pass on the message or its attachments; delete them permanently (including from the deleted-items folder and from any backups, if possible); and confirm to us in writing that you have done so by [date].",
+        "Thank you for your understanding, and we apologise for the inconvenience.",
+        "Kind regards,",
+        "[name, role]"
+      ]
+    },
+    {
+      "code": "I6",
+      "title": "Incident notice from a provider (to be completed by the provider)",
+      "text": [
+        "Provider: [ ]  |  Contact: [ ]  |  Date and time of notice to the practice: [ ]",
+        "Description of the incident: [ ]  |  Date and time it occurred / was found: [ ]",
+        "Practice data involved (categories, approximate volume): [ ]",
+        "Measures taken and planned: [ ]",
+        "Further information to follow: [ ]",
+        "Providers notify the practice without delay, and within [24 hours] of becoming aware (to be written into the Art. 28 agreement)."
+      ]
+    },
+    {
+      "code": "I7",
+      "title": "Post-incident report (lessons learned)",
+      "text": [
+        "Register no.: [ ]  |  Date of the report: [ ]  |  Participants: [ ]",
+        "Root cause: [ ]",
+        "What worked well: [ ]",
+        "What did not work / delays: [ ]",
+        "Corrective and preventive actions (what, who, by when): [ ]",
+        "Updates needed: ☐ ROPA  ☐ Retention schedule  ☐ Security policy  ☐ Staff training  ☐ Provider contracts  ☐ Patient notice  ☐ This procedure",
+        "Approved by: [physician in charge, date]"
+      ]
+    }
+  ],
+  "registerExamples": [
+    {
+      "No.": "INC-2027-001",
+      "Date and time of incident": "Thu 8 Apr 2027, 16:40",
+      "Date and time aware": "Fri 9 Apr 2027, 09:15",
+      "Description (facts)": "Laboratory result of one patient e-mailed by the reception to a wrongly typed address, as an unprotected attachment. The unrelated recipient reported it and opened the file.",
+      "Data categories": "Identification; health (blood test)",
+      "People affected (categories, approx. no.)": "Patients: 1",
+      "Consequences and measures taken": "Recipient deleted the e-mail and confirmed in writing at 11:50. Password-protection and address read-back rules restated.",
+      "Risk (low / medium / high) and reasoning": "Medium: health data seen by an unrelated person; mitigated by the recipient's prompt confirmation.",
+      "Authority (yes / no, date; reasoning)": "Yes, 9 Apr 2027, 14:30 (5 h 15 min after awareness)",
+      "People informed (yes / no, date)": "Yes, 9 Apr 2027 (phone, then letter)",
+      "Providers involved": "E-mail Provider (message trace)",
+      "Closed on / review report": "20 Apr 2027 (I7 completed)"
+    },
+    {
+      "No.": "INC-2027-002",
+      "Date and time of incident": "Tue 15 Jun 2027, 18:20",
+      "Date and time aware": "Tue 15 Jun 2027, 18:45",
+      "Description (facts)": "Doctor's laptop left on a train. Disk encrypted, screen locked. No clinical data stored on the device: it is in the cloud application. Not recovered.",
+      "Data categories": "Administrative files (invoices, templates)",
+      "People affected (categories, approx. no.)": "Patients: up to ~40 names on invoices",
+      "Consequences and measures taken": "All sessions ended, passwords changed, device blocked, police report filed.",
+      "Risk (low / medium / high) and reasoning": "Low: encrypted disk, strong password, no clinical data on the device; reasoning recorded.",
+      "Authority (yes / no, date; reasoning)": "No (low risk; reasoning recorded)",
+      "People informed (yes / no, date)": "No",
+      "Providers involved": "Practice Software Provider (sessions ended)",
+      "Closed on / review report": "22 Jun 2027"
+    },
+    {
+      "No.": "INC-2027-003",
+      "Date and time of incident": "Wed 8 Sep 2027, 09:00",
+      "Date and time aware": "Wed 8 Sep 2027, 09:05",
+      "Description (facts)": "Practice software unavailable for 3 hours because of a provider outage. No data lost. Paper fallback used for appointments.",
+      "Data categories": "Availability only",
+      "People affected (categories, approx. no.)": "None identified",
+      "Consequences and measures taken": "Provider notice received at 09:40. Service restored at 12:00.",
+      "Risk (low / medium / high) and reasoning": "Low: no loss, no unauthorised access; effect on care assessed as minimal.",
+      "Authority (yes / no, date; reasoning)": "No (low risk; reasoning recorded)",
+      "People informed (yes / no, date)": "No",
+      "Providers involved": "Practice Software Provider",
+      "Closed on / review report": "10 Sep 2027"
+    }
+  ]
+}

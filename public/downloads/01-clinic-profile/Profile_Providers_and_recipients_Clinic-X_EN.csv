@@ -1,0 +1,15 @@
+﻿ID,Vendor,Service,Role,Art. 28 agreement,Location
+V-01,Practice Software Provider,A-01 practice management / records,Processor,"Yes, signed (worked example)",EU
+V-02,Messaging Provider,A-08 reminders by SMS/e-mail,Processor,Yes,EU
+V-03,IT Support Provider,Remote IT support,Processor (can access systems),Yes,EU
+V-04,Accounting Firm,Bookkeeping and payroll,Processor for payroll; independent role for statutory accounting duties (note in ROPA),Yes,EU
+V-05,CCTV Installer,CCTV installation and maintenance,Processor only if it can access recordings,Yes (limited),EU
+V-06,E-mail Provider (large cloud suite),A-07 business e-mail,Processor,Provider's standard DPA reviewed,EU region
+V-07,Hosting Provider,A-09 website hosting,Processor,Yes,EU
+V-08,Partner Laboratory,Partner laboratory; receives samples and sends results,Independent controller,Not applicable (documented data-sharing note),EU
+V-09,Dr. B,Visiting physician,Independent controller,Premises/system arrangement,EU
+V-10,Shredding Provider,Confidential paper destruction,Processor,Yes,EU
+V-11,Card Payment Provider,Card terminal and payment processing,Independent controller,Not applicable,EU
+V-12,Occupational Health Provider,Medical checks for the clinic's own staff,Independent controller,Not applicable,EU
+—,County health insurance fund and other authorities,"Reporting, inspections",Independent controllers (legal obligation),Not applicable,RO
+—,Professional liability insurer,"Claims, on request",Independent controller,Not applicable,EU

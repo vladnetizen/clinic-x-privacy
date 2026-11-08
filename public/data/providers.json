@@ -1,0 +1,311 @@
+{
+  "providers": [
+    {
+      "ID": "V-01",
+      "Provider": "Practice Software Provider",
+      "Service": "Practice management and records (A-01)",
+      "ROPA activities": "PA-01 to 05",
+      "Role": "Processor",
+      "Art. 28 agreement": "Signed Dec 2026 (DPA-V01)",
+      "Data location": "EU data centre",
+      "Sub-processors": "2 (Annex 3)",
+      "Review (date; result)": "12 Jan 2027: acceptable with conditions",
+      "Next review": "Jan 2028"
+    },
+    {
+      "ID": "V-02",
+      "Provider": "Messaging Provider",
+      "Service": "Reminders by SMS / e-mail (A-08)",
+      "ROPA activities": "PA-06, 08",
+      "Role": "Processor",
+      "Art. 28 agreement": "Signed Dec 2026",
+      "Data location": "EU",
+      "Sub-processors": "To ask",
+      "Review (date; result)": "Planned 23 Feb 2027",
+      "Next review": "Feb 2028"
+    },
+    {
+      "ID": "V-03",
+      "Provider": "IT Support Provider",
+      "Service": "Remote IT support",
+      "ROPA activities": "PA-02, 13",
+      "Role": "Processor (can reach systems)",
+      "Art. 28 agreement": "Signed Dec 2026",
+      "Data location": "EU",
+      "Sub-processors": "To ask",
+      "Review (date; result)": "Planned 26 Jan 2027",
+      "Next review": "Jan 2028"
+    },
+    {
+      "ID": "V-04",
+      "Provider": "Accounting Firm",
+      "Service": "Bookkeeping and payroll",
+      "ROPA activities": "PA-04, 11",
+      "Role": "Processor for payroll; independent for statutory accounting duties",
+      "Art. 28 agreement": "Signed Dec 2026",
+      "Data location": "EU",
+      "Sub-processors": "To ask",
+      "Review (date; result)": "Planned 9 Mar 2027",
+      "Next review": "Mar 2028"
+    },
+    {
+      "ID": "V-05",
+      "Provider": "CCTV Installer",
+      "Service": "Maintenance of the video system (A-10)",
+      "ROPA activities": "PA-07",
+      "Role": "Processor only if it can reach recordings",
+      "Art. 28 agreement": "Signed Dec 2026, limited",
+      "Data location": "EU",
+      "Sub-processors": "None expected",
+      "Review (date; result)": "Planned 16 Mar 2027",
+      "Next review": "Mar 2028"
+    },
+    {
+      "ID": "V-06",
+      "Provider": "E-mail Provider",
+      "Service": "Business e-mail (A-07)",
+      "ROPA activities": "PA-01, 05, 09, 12",
+      "Role": "Processor",
+      "Art. 28 agreement": "Provider's standard terms",
+      "Data location": "EU region",
+      "Sub-processors": "Public list",
+      "Review (date; result)": "12 Jan 2027: standard terms acceptable, 3 deviations recorded; support access review planned 9 Feb 2027",
+      "Next review": "Feb 2028"
+    },
+    {
+      "ID": "V-07",
+      "Provider": "Hosting Provider",
+      "Service": "Website (A-09)",
+      "ROPA activities": "PA-13",
+      "Role": "Processor",
+      "Art. 28 agreement": "Signed Dec 2026",
+      "Data location": "EU",
+      "Sub-processors": "To ask; analytics tool to be identified",
+      "Review (date; result)": "Planned 23 Mar 2027",
+      "Next review": "Mar 2028"
+    },
+    {
+      "ID": "V-08",
+      "Provider": "Partner Laboratory",
+      "Service": "Tests and investigations",
+      "ROPA activities": "PA-05",
+      "Role": "Separate controller",
+      "Art. 28 agreement": "Not applicable; data-sharing note on file",
+      "Data location": "EU",
+      "Sub-processors": "—",
+      "Review (date; result)": "Note on file",
+      "Next review": "Dec 2027"
+    },
+    {
+      "ID": "V-09",
+      "Provider": "Dr. B",
+      "Service": "Visiting physician",
+      "ROPA activities": "PA-01, 02 (own patients)",
+      "Role": "Separate controller",
+      "Art. 28 agreement": "Premises and system arrangement, to be documented by 28 Feb 2027",
+      "Data location": "EU",
+      "Sub-processors": "—",
+      "Review (date; result)": "Arrangement under review",
+      "Next review": "Feb 2028"
+    },
+    {
+      "ID": "V-10",
+      "Provider": "Shredding Provider",
+      "Service": "Paper destruction",
+      "ROPA activities": "PA-02, 04, 11",
+      "Role": "Processor",
+      "Art. 28 agreement": "Signed Dec 2026",
+      "Data location": "EU",
+      "Sub-processors": "To ask",
+      "Review (date; result)": "Planned 30 Mar 2027",
+      "Next review": "Mar 2028"
+    },
+    {
+      "ID": "V-11",
+      "Provider": "Card Payment Provider",
+      "Service": "Card payments",
+      "ROPA activities": "PA-04",
+      "Role": "Separate controller",
+      "Art. 28 agreement": "Not applicable",
+      "Data location": "EU",
+      "Sub-processors": "—",
+      "Review (date; result)": "Role noted",
+      "Next review": "Dec 2027"
+    },
+    {
+      "ID": "V-12",
+      "Provider": "Occupational Health Provider",
+      "Service": "Medical checks for staff",
+      "ROPA activities": "PA-11",
+      "Role": "Separate controller",
+      "Art. 28 agreement": "Not applicable",
+      "Data location": "EU",
+      "Sub-processors": "—",
+      "Review (date; result)": "Role noted",
+      "Next review": "Dec 2027"
+    },
+    {
+      "ID": "—",
+      "Provider": "County health insurance fund and other authorities",
+      "Service": "Reporting, inspections",
+      "ROPA activities": "PA-03",
+      "Role": "Separate controllers (legal duty)",
+      "Art. 28 agreement": "Not applicable",
+      "Data location": "RO",
+      "Sub-processors": "—",
+      "Review (date; result)": "—",
+      "Next review": "—"
+    },
+    {
+      "ID": "—",
+      "Provider": "Professional liability insurer",
+      "Service": "Claims, on request",
+      "ROPA activities": "—",
+      "Role": "Separate controller",
+      "Art. 28 agreement": "Not applicable",
+      "Data location": "EU",
+      "Sub-processors": "—",
+      "Review (date; result)": "—",
+      "Next review": "—"
+    }
+  ],
+  "review_V01": [
+    {
+      "question": "What service does it provide, and which of the practice's data does it handle?",
+      "answer": "Practice management and electronic records: patient files, appointments, billing, attached images. Includes health data and the national ID number.",
+      "assessment": "OK"
+    },
+    {
+      "question": "Is it a processor or a separate controller?",
+      "answer": "Processor. It acts on the practice's instructions and has no purposes of its own.",
+      "assessment": "OK"
+    },
+    {
+      "question": "Where are the data stored and processed? In the EU/EEA?",
+      "answer": "In an EU data centre (provider's statement).",
+      "assessment": "OK"
+    },
+    {
+      "question": "Can anyone reach the data from outside the EEA (for example support staff)? On what basis?",
+      "answer": "Support is staffed in the EU. An engineering team outside the EEA may get temporary, logged access to fix a fault, relying on standard contractual clauses.",
+      "assessment": "Clarify"
+    },
+    {
+      "question": "Individual accounts and two-step verification?",
+      "answer": "Individual accounts. Two-step verification is available and the practice's administrator can make it mandatory.",
+      "assessment": "OK"
+    },
+    {
+      "question": "Data encrypted in transit and at rest?",
+      "answer": "Yes: encrypted connections, and encrypted storage (provider's statement).",
+      "assessment": "OK"
+    },
+    {
+      "question": "Backups: how often, where, tested restores?",
+      "answer": "Daily, encrypted, in the EU, kept 90 days. The provider tests a restore once a year and can restore a single record on request.",
+      "assessment": "OK"
+    },
+    {
+      "question": "Access logs available?",
+      "answer": "Yes, per-user access logs in the application; export on request within 5 working days.",
+      "assessment": "OK"
+    },
+    {
+      "question": "Updates and vulnerability handling?",
+      "answer": "Monthly releases; critical fixes within days (provider's statement).",
+      "assessment": "OK"
+    },
+    {
+      "question": "Certifications or independent reports (for example ISO 27001)? Not required, but a useful sign.",
+      "answer": "States that it holds ISO/IEC 27001. A copy of the certificate has been requested.",
+      "assessment": "Clarify"
+    },
+    {
+      "question": "Staff bound by confidentiality and trained?",
+      "answer": "Yes, in employment contracts, with yearly training (provider's statement).",
+      "assessment": "OK"
+    },
+    {
+      "question": "Sub-processors? Which, where, and how are changes notified?",
+      "answer": "Two, listed in Annex 3 of the agreement (cloud infrastructure and backup storage), both in the EU. 30 days' notice of changes.",
+      "assessment": "OK"
+    },
+    {
+      "question": "How fast does it report an incident? Is there a written procedure?",
+      "answer": "Within 24 hours, by contract (Art. 10). Written procedure.",
+      "assessment": "OK"
+    },
+    {
+      "question": "Incidents in the last 2 years? What was done?",
+      "answer": "None affecting clients' data (provider's statement).",
+      "assessment": "OK"
+    },
+    {
+      "question": "How does it help with patients' requests (export, deletion, correction)?",
+      "answer": "Export of a patient's record as PDF or CSV within 5 working days; deletion on instruction.",
+      "assessment": "OK"
+    },
+    {
+      "question": "How are data returned or deleted at the end? Within what time? Written confirmation?",
+      "answer": "Export in a structured format, deletion within 30 days, backups roll off within 90 days, written confirmation.",
+      "assessment": "OK"
+    }
+  ],
+  "check_V06": [
+    {
+      "element": "Subject, duration, nature and purpose; types of data; categories of people",
+      "where": "Section 1 and Annex 1",
+      "found": "Yes"
+    },
+    {
+      "element": "Processing only on the controller's documented instructions (including for transfers); duty to warn if an instruction breaks the law",
+      "where": "Section 2",
+      "found": "Yes"
+    },
+    {
+      "element": "Confidentiality of the people authorised to process",
+      "where": "Section 3",
+      "found": "Yes"
+    },
+    {
+      "element": "Security measures (Art. 32)",
+      "where": "Section 4 and Annex 2",
+      "found": "Yes"
+    },
+    {
+      "element": "Conditions for sub-processors (authorisation, same obligations, liability)",
+      "where": "Section 5, public list",
+      "found": "Yes"
+    },
+    {
+      "element": "Help with data subjects' requests",
+      "where": "Section 6",
+      "found": "Yes"
+    },
+    {
+      "element": "Help with Art. 32 to 36 (security, breaches, impact assessments)",
+      "where": "Section 7",
+      "found": "Yes"
+    },
+    {
+      "element": "Deletion or return of data at the end",
+      "where": "Section 8: deletion within 180 days of the end",
+      "found": "Partly"
+    },
+    {
+      "element": "Information and audits",
+      "where": "Section 9: audit reports and certifications, on-site audits only in limited cases",
+      "found": "Partly"
+    },
+    {
+      "element": "Clear, short deadline to report a breach",
+      "where": "Section 10: “without undue delay”, no fixed hours",
+      "found": "Partly"
+    },
+    {
+      "element": "Location of data and transfer mechanism (Chapter V)",
+      "where": "Section 11: EU region; transfers under adequacy decisions or standard clauses",
+      "found": "Yes"
+    }
+  ]
+}

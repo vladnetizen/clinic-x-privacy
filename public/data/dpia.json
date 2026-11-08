@@ -1,0 +1,272 @@
+{
+  "register": [
+    {
+      "Ref": "SCR-2026-01",
+      "Date": "Mon 7 Dec 2026",
+      "Project": "Video surveillance (PA-07, module 10)",
+      "Criteria met": "2 and 1 partly",
+      "Result": "DPIA not required",
+      "Reason": "Not on a large scale; list items concern large-scale monitoring. Close call, reasoned in the LIA. Reopen if cameras, sound, analytics, remote viewing or longer retention are proposed.",
+      "DPIA ref": "None",
+      "Review": "Dec 2027"
+    },
+    {
+      "Ref": "SCR-2027-01",
+      "Date": "Thu 25 Mar 2027",
+      "Project": "Website analytics tool (PA-13)",
+      "Criteria met": "0",
+      "Result": "DPIA not required (provisional)",
+      "Reason": "Standard analytics on consent, no health data on the site. Provisional until the tool is identified in the provider review; rescreen if it is a tool that tracks across sites.",
+      "DPIA ref": "None",
+      "Review": "On identifying the tool"
+    },
+    {
+      "Ref": "SCR-2027-02",
+      "Date": "Mon 11 Oct 2027",
+      "Project": "AI consultation notes (pilot)",
+      "Criteria met": "3",
+      "Result": "DPIA required",
+      "Reason": "Health data, an AI tool and recording of patients. Meets two criteria and the practice's own triggers.",
+      "DPIA ref": "DPIA-2027-01",
+      "Review": "Mon 13 Dec 2027"
+    }
+  ],
+  "screeningQuestions": [
+    "Project and owner",
+    "What will happen to the data, in two sentences",
+    "Does it involve special-category data (health)?",
+    "Does it use a new technology, or an AI tool?",
+    "Will patients or staff be recorded, tracked or monitored?",
+    "Does it concern vulnerable people (patients, children, employees)?",
+    "Does it evaluate or score people, or make automated decisions?",
+    "Is it on a large scale, or does it combine datasets?",
+    "Could it stop people using a service or exercising a right?",
+    "Does it send data outside the EU, or to a new provider?",
+    "Number of WP248 criteria met",
+    "Does Art. 35(3), the authority's list or a practice trigger apply?",
+    "Result",
+    "Adviser consulted, date",
+    "Decided by, date"
+  ],
+  "risks": [
+    {
+      "Ref": "R1",
+      "Risk to people": "The recording picks up more than the consultation needs: a relative, a phone call, a side comment.",
+      "Likelihood": 3,
+      "Severity": 2,
+      "Inherent": "High",
+      "Measures": "Dr. A starts and stops it. Stops before the examination. Visit types excluded. A third person must also agree, or Dr. A does not record.",
+      "Likelihood after": 1,
+      "Severity after": 2,
+      "Residual": "Low"
+    },
+    {
+      "Ref": "R2",
+      "Risk to people": "Audio or transcripts at the provider are seen by someone who should not: breach or misuse by an employee.",
+      "Likelihood": 2,
+      "Severity": 3,
+      "Inherent": "High",
+      "Measures": "Art. 28 agreement. Encryption at rest and in transit. Access limited. Audio deleted within 24 hours and text within 72 hours. Security evidence checked before the pilot (C1).",
+      "Likelihood after": 1,
+      "Severity after": 3,
+      "Residual": "Medium"
+    },
+    {
+      "Ref": "R3",
+      "Risk to people": "A mistake in the transcript or draft (a drug, a dose, the wrong side) enters the record and affects care.",
+      "Likelihood": 3,
+      "Severity": 3,
+      "Inherent": "High",
+      "Measures": "A draft is never filed unread. Dr. A checks names, doses and sides. No direct link to the record. Pilot stops after two errors that reach the record.",
+      "Likelihood after": 2,
+      "Severity after": 2,
+      "Residual": "Medium"
+    },
+    {
+      "Ref": "R4",
+      "Risk to people": "The provider or a sub-processor uses the data to train or improve its models, or for its own purposes.",
+      "Likelihood": 2,
+      "Severity": 3,
+      "Inherent": "High",
+      "Measures": "Contract bans it. Setting checked and noted. Sub-processors listed, and changes notified.",
+      "Likelihood after": 1,
+      "Severity after": 3,
+      "Residual": "Medium"
+    },
+    {
+      "Ref": "R5",
+      "Risk to people": "Data reaches a country outside the EU through a sub-processor or through support access.",
+      "Likelihood": 2,
+      "Severity": 3,
+      "Inherent": "High",
+      "Measures": "EU region and EU-only support in the contract. Sub-processor list. A transfer assessment if any location is outside the EU (C1).",
+      "Likelihood after": 1,
+      "Severity after": 3,
+      "Residual": "Medium"
+    },
+    {
+      "Ref": "R6",
+      "Risk to people": "Patients feel they cannot refuse, and hold back information or avoid care.",
+      "Likelihood": 2,
+      "Severity": 2,
+      "Inherent": "Medium",
+      "Measures": "Ask each time, in a standard sentence. Refusal has no consequence. A sign, and a notice that says so.",
+      "Likelihood after": 1,
+      "Severity after": 2,
+      "Residual": "Low"
+    },
+    {
+      "Ref": "R7",
+      "Risk to people": "The tablet or the account is lost or taken, with audio or notes on it.",
+      "Likelihood": 2,
+      "Severity": 3,
+      "Inherent": "High",
+      "Measures": "Nothing stored on the tablet. Screen lock, device encryption, remote wipe, two-step verification on the account.",
+      "Likelihood after": 1,
+      "Severity after": 2,
+      "Residual": "Low"
+    },
+    {
+      "Ref": "R8",
+      "Risk to people": "The transcripts are used for other purposes: checking staff, marketing, research.",
+      "Likelihood": 2,
+      "Severity": 2,
+      "Inherent": "Medium",
+      "Measures": "Purpose fixed in the notice and the contract. Only Dr. A has access. A new purpose needs a new DPIA.",
+      "Likelihood after": 1,
+      "Severity after": 2,
+      "Residual": "Low"
+    },
+    {
+      "Ref": "R9",
+      "Risk to people": "A patient cannot get access to, correct or have deleted what the provider holds.",
+      "Likelihood": 2,
+      "Severity": 2,
+      "Inherent": "Medium",
+      "Measures": "Audio and text are gone within 72 hours. The final note is in the record, with the rights procedure. The provider must support deletion on request.",
+      "Likelihood after": 1,
+      "Severity after": 2,
+      "Residual": "Low"
+    }
+  ],
+  "conditions": [
+    {
+      "Ref": "C1",
+      "Condition": "Complete the provider review and obtain written evidence of EU hosting, the sub-processor list, no training on the data, the deletion times, and security measures. Assess any location outside the EU.",
+      "Owner": "Dr. A, with the adviser",
+      "Due": "Fri 12 Nov 2027"
+    },
+    {
+      "Ref": "C2",
+      "Condition": "Sign the Art. 28 agreement (template of module 9) with the provider.",
+      "Owner": "Dr. A",
+      "Due": "Fri 12 Nov 2027"
+    },
+    {
+      "Ref": "C3",
+      "Condition": "Update the patient notice, put the sign in the consulting room, and adopt the sentence for asking the patient.",
+      "Owner": "Dr. A",
+      "Due": "Fri 12 Nov 2027"
+    },
+    {
+      "Ref": "C4",
+      "Condition": "Brief Nurse C (10 minutes) and tell Dr. B that the tool is not for his consultations or his devices.",
+      "Owner": "Dr. A",
+      "Due": "Fri 12 Nov 2027"
+    },
+    {
+      "Ref": "C5",
+      "Condition": "Update the record of processing (new activity), the retention schedule, the providers register (V-13) and the controls register.",
+      "Owner": "Dr. A",
+      "Due": "Fri 12 Nov 2027"
+    },
+    {
+      "Ref": "C6",
+      "Condition": "Add a scenario to the incident procedure: a note or transcript in the wrong record; a breach at the provider. Add the provider's breach contact.",
+      "Owner": "Dr. A",
+      "Due": "Fri 12 Nov 2027"
+    },
+    {
+      "Ref": "C7",
+      "Condition": "Run the pilot only with Dr. A, from Mon 15 Nov to Fri 10 Dec 2027, with the excluded visit types and the ask-each-time rule. Keep a simple log: visits, refusals, errors found, minutes saved.",
+      "Owner": "Dr. A",
+      "Due": "15 Nov to 10 Dec 2027"
+    },
+    {
+      "Ref": "C8",
+      "Condition": "Stop at once if: a breach at the provider; two errors reach the record; or a complaint that the practice cannot answer. Record the reason.",
+      "Owner": "Dr. A",
+      "Due": "During the pilot"
+    },
+    {
+      "Ref": "C9",
+      "Condition": "Review on Mon 13 Dec 2027 with the log. Decide: stop, continue as is, or widen after a further DPIA review. Update this DPIA and the register.",
+      "Owner": "Dr. A, with the adviser",
+      "Due": "Mon 13 Dec 2027"
+    }
+  ],
+  "alternatives": [
+    {
+      "Option": "Type notes during the consultation (as now)",
+      "What it gives": "No new data flow",
+      "Why chosen or not": "Costs eye contact and time. This is the baseline, and the pilot is measured against it."
+    },
+    {
+      "Option": "Dictate the note after the visit",
+      "What it gives": "Part of the time saving, no recording of the patient's voice",
+      "Why chosen or not": "Less intrusive: only the doctor's voice is recorded. The practice has not trialled it. This is the weak point of the case for recording the patient, and the reason the pilot is limited."
+    },
+    {
+      "Option": "Templates and macros",
+      "What it gives": "Faster structured notes",
+      "Why chosen or not": "Already used. Not a substitute for the narrative."
+    },
+    {
+      "Option": "AI scribe with the patient in the room (this DPIA)",
+      "What it gives": "Most time saved; the doctor looks at the patient",
+      "Why chosen or not": "New risks, mitigated as set out here. Proportionate only as a limited pilot."
+    }
+  ],
+  "changes": [
+    {
+      "Document": "Record of processing",
+      "Change triggered": "New activity PA-14, AI consultation notes; V-13 as processor",
+      "Module": "3"
+    },
+    {
+      "Document": "Retention schedule",
+      "Change triggered": "New row for audio and transcripts (24 and 72 hours); a row for DPIA files",
+      "Module": "4"
+    },
+    {
+      "Document": "Rights procedure",
+      "Change triggered": "No change. Note that audio and transcripts are gone within 72 hours",
+      "Module": "5"
+    },
+    {
+      "Document": "Incident procedure",
+      "Change triggered": "New scenarios (C6)",
+      "Module": "6"
+    },
+    {
+      "Document": "Security controls register",
+      "Change triggered": "Entries for the tablet and the provider account; two-step verification",
+      "Module": "7"
+    },
+    {
+      "Document": "Training",
+      "Change triggered": "Add a question to the mini-test bank about asking patients and checking drafts",
+      "Module": "8"
+    },
+    {
+      "Document": "Providers and Art. 28",
+      "Change triggered": "V-13 in the register; Art. 28 agreement; provider review (C1, C2)",
+      "Module": "9"
+    },
+    {
+      "Document": "Patient notice",
+      "Change triggered": "New section on the tool; sign in the consulting room (C3)",
+      "Module": "2"
+    }
+  ]
+}

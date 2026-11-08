@@ -1,0 +1,8 @@
+﻿ID,Label (fictional),Role,Employment,Data access
+S-01,Dr. A,"Owner-physician, family medicine; legal representative; privacy contact; incident lead",Owner,Full clinical + admin + CCTV
+S-02,Dr. B,"Visiting physician (ultrasound/cardiology), 2 days a week",Independent collaborator (own practice),Clinical records of his own patients
+S-03,Nurse C,"Practice nurse (blood sampling, ECG, triage)",Employee,"Clinical (limited), appointments"
+S-04,Receptionist D,Receptionist / administrator,Employee,"Appointments, contact and billing data; no clinical notes"
+S-05,Accountant E,Accountant,External (Accounting Firm),"Invoices, payroll data; no clinical data"
+S-06,(unnamed) IT support technician,"Remote support, ~4 hours a month",External (IT Support Provider),Admin access to devices; no routine access to clinical records
+S-07,(unnamed),Cleaning (evenings),"External, small contractor",Physical access to premises only

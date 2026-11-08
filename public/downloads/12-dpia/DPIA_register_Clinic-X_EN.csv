@@ -1,0 +1,4 @@
+﻿"Ref","Date","Project","Criteria met","Result","Reason","DPIA ref","Review"
+"SCR-2026-01","Mon 7 Dec 2026","Video surveillance (PA-07, module 10)","2 and 1 partly","DPIA not required","Not on a large scale; list items concern large-scale monitoring. Close call, reasoned in the LIA. Reopen if cameras, sound, analytics, remote viewing or longer retention are proposed.","None","Dec 2027"
+"SCR-2027-01","Thu 25 Mar 2027","Website analytics tool (PA-13)","0","DPIA not required (provisional)","Standard analytics on consent, no health data on the site. Provisional until the tool is identified in the provider review; rescreen if it is a tool that tracks across sites.","None","On identifying the tool"
+"SCR-2027-02","Mon 11 Oct 2027","AI consultation notes (pilot)","3","DPIA required","Health data, an AI tool and recording of patients. Meets two criteria and the practice's own triggers.","DPIA-2027-01","Mon 13 Dec 2027"

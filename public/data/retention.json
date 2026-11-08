@@ -1,0 +1,188 @@
+{
+  "rows": [
+    {
+      "code": "RET-01",
+      "category": "Patient file / medical record (including acknowledgement statements, referrals and medical letters)",
+      "activities": [
+        "PA-02",
+        "PA-03",
+        "PA-05"
+      ],
+      "period": "10 years",
+      "starts": "From the last consultation. For minors: from the age of majority – to be confirmed.",
+      "basis": "Health and archiving rules applicable to the practice (for example the National Archives Law no. 16/1996 and Ministry of Health acts on medical documentation). The exact act and period have not been verified. 10 years is a recommendation until the clinic confirms it with the public health authority, the professional college or a legal adviser.",
+      "atEnd": "Secure destruction, with a record. Electronic: permanent deletion from the application and from backups.",
+      "status": "To confirm"
+    },
+    {
+      "code": "RET-02",
+      "category": "Consultation register",
+      "activities": [
+        "PA-02"
+      ],
+      "period": "5 years",
+      "starts": "From the last entry in the register.",
+      "basis": "The act on medical registers has not been verified. 5 years is a recommendation until confirmed.",
+      "atEnd": "Secure destruction, with a record.",
+      "status": "To confirm"
+    },
+    {
+      "code": "RET-03",
+      "category": "Laboratory results (copies received by the practice)",
+      "activities": [
+        "PA-05"
+      ],
+      "period": "5 years",
+      "starts": "From the date of issue.",
+      "basis": "The applicable act has not been verified. 5 years is a recommendation until confirmed. If the result is filed in the medical record, RET-01 applies.",
+      "atEnd": "Secure destruction, with a record.",
+      "status": "To confirm"
+    },
+    {
+      "code": "RET-04",
+      "category": "Medical images (X-rays, ultrasound and other images)",
+      "activities": [
+        "PA-05"
+      ],
+      "period": "10 years, with the medical record",
+      "starts": "From the date of the investigation.",
+      "basis": "A shorter period (for example 5 years) applies only if an act covering that type of investigation provides for it. Not verified; recommendation until confirmed.",
+      "atEnd": "Secure destruction. Electronic: permanent deletion from the device, application and copies.",
+      "status": "To confirm"
+    },
+    {
+      "code": "RET-05",
+      "category": "Accounting and tax documents (invoices, receipts, registers, supporting documents, claim and reporting documents)",
+      "activities": [
+        "PA-03",
+        "PA-04"
+      ],
+      "period": "5 years",
+      "starts": "From 1 July of the year after the financial year in which the documents were drawn up.",
+      "basis": "Art. 25(1) of the Accounting Law no. 82/1991, as amended by Law no. 36/2023: 5 years from 1 July of the year after the end of the financial year (previously 10 years). Exception: supporting documents for assets with a useful life longer than 5 years are kept for that useful life (Ministry of Public Finance Order no. 1447/2023). Last checked 7 November 2026; the accountant confirms the current text and any document with a different period.",
+      "atEnd": "Secure destruction, with a record. The accountant deletes the copies it holds, at the clinic's request.",
+      "status": "Legal"
+    },
+    {
+      "code": "RET-06",
+      "category": "Video images (CCTV)",
+      "activities": [
+        "PA-07"
+      ],
+      "period": "7 days (recommended); never more than 30 days",
+      "starts": "From the date of recording.",
+      "basis": "For employees: Art. 5 of Law no. 190/2018 – proportionate to the purpose, no more than 30 days, with the exceptions in law or in well-justified cases. ANSPDCP Decision no. 52/2012: the draft text seen sets a 30-day maximum; the final text is to be confirmed. EDPB Guidelines 3/2019: normally a few days. Images exported for an incident are kept only as long as the investigation lasts or the authorities require.",
+      "atEnd": "Automatic deletion by overwriting. Exports are deleted when the case closes and entered in the destruction register.",
+      "status": "Legal limit"
+    },
+    {
+      "code": "RET-07",
+      "category": "Appointments and appointment messages",
+      "activities": [
+        "PA-01",
+        "PA-06"
+      ],
+      "period": "12 months",
+      "starts": "From the date of the appointment.",
+      "basis": "No legal period. Criterion: operational usefulness (rebooking, complaints) and data minimisation. The consultation itself is recorded in the medical record (RET-01). The practice software keeps appointments separate from the record; checked in the vendor review. Recommendation.",
+      "atEnd": "Deletion from the application; messages (SMS / e-mail) at the provider, as set in the contract.",
+      "status": "Recommended"
+    },
+    {
+      "code": "RET-08",
+      "category": "Consents and contacts for promotional communications",
+      "activities": [
+        "PA-08"
+      ],
+      "period": "Contact data: until consent is withdrawn, but no more than 24 months from the last interaction or consent confirmation.\nProof of consent: 3 years from withdrawal or deletion of the contact.",
+      "starts": "Withdrawal of consent or, if earlier, the last interaction or confirmation of consent.",
+      "basis": "Consent may be withdrawn at any time (Art. 7(3) GDPR) but does not justify keeping contacts without limit: storage limitation (Art. 5(1)(e)). The GDPR sets no period; 24 months is a recommendation. At expiry the contact is deleted or reconfirmation is requested. Proof is kept to defend legal claims for the general 3-year limitation period (Art. 2517 of the Romanian Civil Code). An unsubscribed address may stay on a suppression list, strictly to avoid sending further messages.",
+      "atEnd": "Deletion from the contact list (or reconfirmation); proof is kept separately and deleted after 3 years.",
+      "status": "Recommended"
+    },
+    {
+      "code": "RET-09",
+      "category": "Data subject requests and replies",
+      "activities": [
+        "PA-09"
+      ],
+      "period": "3 years",
+      "starts": "From the resolution of the request.",
+      "basis": "General limitation period of 3 years (Art. 2517 of the Civil Code); proof that the request was handled correctly. Recommendation.",
+      "atEnd": "Secure destruction or deletion.",
+      "status": "Recommended"
+    },
+    {
+      "code": "RET-10",
+      "category": "Personal data breach register",
+      "activities": [
+        "PA-10"
+      ],
+      "period": "5 years",
+      "starts": "From the closure of the incident.",
+      "basis": "No legal period. Art. 33(5) GDPR requires documentation; criterion: accountability (Art. 5(2) GDPR) and possible inspections by the supervisory authority. Recommendation.",
+      "atEnd": "Secure destruction or deletion.",
+      "status": "Recommended"
+    },
+    {
+      "code": "RET-11 (a)",
+      "category": "Employment contracts and personnel files",
+      "activities": [
+        "PA-11"
+      ],
+      "period": "Duration of employment + statutory archiving period (to be confirmed)",
+      "starts": "From the end of employment.",
+      "basis": "Employment and archiving law – the exact act is confirmed with the accountant or an HR adviser. Nothing is kept beyond what the law requires.",
+      "atEnd": "Secure destruction, with a record.",
+      "status": "To confirm"
+    },
+    {
+      "code": "RET-11 (b)",
+      "category": "Payroll statements",
+      "activities": [
+        "PA-11"
+      ],
+      "period": "5 years",
+      "starts": "From 1 July of the year after the financial year.",
+      "basis": "Art. 25 of Law no. 82/1991 as amended by Law no. 36/2023: payroll statements follow the same 5-year period, counted from 1 July of the following year (previously 50 years, then 5 years under conditions). Last checked 7 November 2026; the accountant confirms the current text.",
+      "atEnd": "Secure destruction, with a record.",
+      "status": "Legal"
+    },
+    {
+      "code": "RET-12",
+      "category": "Candidates' CVs",
+      "activities": [
+        "PA-12"
+      ],
+      "period": "6 months.\n12 months with the candidate's consent for future positions.",
+      "starts": "From the end of the recruitment process.",
+      "basis": "No legal period. Criterion: duration of the recruitment process and, if applicable, the candidate's consent. Recommendation.",
+      "atEnd": "Deletion (e-mail, applications) or destruction (paper).",
+      "status": "Recommended"
+    },
+    {
+      "code": "RET-13",
+      "category": "Website data",
+      "activities": [
+        "PA-13"
+      ],
+      "period": "Cookies: no more than 12 months, per the cookie policy.\nSecurity logs: 30 days.\nForm messages: 12 months.",
+      "starts": "From creation or last contact.",
+      "basis": "No legal period. Criterion: technical need and data minimisation. If the sender becomes a patient, relevant data moves to the medical record (RET-01). Recommendation.",
+      "atEnd": "Automatic deletion, or settings at the website provider.",
+      "status": "Recommended"
+    }
+  ],
+  "rules": [
+    "A legal period is a minimum. While a law requires data to be kept, it is not deleted, even if the person asks (Art. 17(3)(b) GDPR). Once the period ends, the data is deleted.",
+    "With no legal period, the period is a maximum. For categories without a legal period, the period in the table is the longest the data may be kept, set by how long it is really useful.",
+    "When the clock starts. The period runs from the event in the \"Starts from\" column, not from when the document was created, unless stated otherwise.",
+    "Annual check. Every January, the responsible person identifies data whose period has expired and deletes it. In practice, data can therefore stay at most 12 months past its period. Categories with short periods (CCTV, appointments) are deleted automatically.",
+    "Legal hold. Data is not deleted if there is a dispute, complaint, inspection, request from an authority or a data subject request being handled. The hold is noted and lifted when the matter ends.",
+    "Copies and duplicates. Avoid copies (phone photos, messaging apps, copies of ID documents). Copies that are not needed are deleted at once; copies that exist follow the period of the original document.",
+    "Backups. Data deleted from applications disappears from backups at the next rotation. Backups are kept for no more than 3 months.",
+    "Secure destruction. Paper: shredding, or destruction by an authorised firm, with a record. Electronic: permanent deletion, including from backups and devices. Every destruction is entered in the destruction register (section 4).",
+    "Providers. Providers that keep data for the clinic (the practice software, the accountant, the messaging provider) delete or return the data when the contract ends and confirm in writing.",
+    "Patient deletion requests. If the legal period has not ended, the request is refused with reasons and, where appropriate, processing is restricted. If it has ended, or there is no legal duty to keep the data, it is deleted (see the data subject rights procedure)."
+  ]
+}

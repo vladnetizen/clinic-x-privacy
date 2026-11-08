@@ -1,0 +1,609 @@
+{
+  "baseline": {
+    "date": "2026-12-01",
+    "counts": {
+      "Partial": 21,
+      "Yes": 11,
+      "No": 6
+    }
+  },
+  "controls": [
+    {
+      "code": "SEC-01",
+      "domain": "Access",
+      "control": "Individual accounts; no shared accounts.",
+      "status": "Partial",
+      "owner": "IT Support Provider",
+      "due": "2027-01-31",
+      "notes": "The reception PC has one shared login. Create individual accounts."
+    },
+    {
+      "code": "SEC-02",
+      "domain": "Access",
+      "control": "Passwords of at least 12 characters or a passphrase, unique; password manager.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-02-28",
+      "notes": "Rule adopted. Password manager not yet chosen."
+    },
+    {
+      "code": "SEC-03",
+      "domain": "Access",
+      "control": "Two-step verification for e-mail, cloud and the practice software.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "On for e-mail. Practice software option to be confirmed with its provider."
+    },
+    {
+      "code": "SEC-04",
+      "domain": "Access",
+      "control": "Role-based access (matrix) and periodic review of rights.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-06-30",
+      "notes": "Matrix defined. First review due after six months."
+    },
+    {
+      "code": "SEC-05",
+      "domain": "Access",
+      "control": "Access removed the same day when someone leaves.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "In the policy. No leaver yet to test it."
+    },
+    {
+      "code": "SEC-06",
+      "domain": "Access",
+      "control": "Automatic screen lock after at most 5 minutes.",
+      "status": "Partial",
+      "owner": "IT Support Provider",
+      "due": "2027-01-31",
+      "notes": "Laptop: 5 min. Reception PC: 15 min, to be changed."
+    },
+    {
+      "code": "SEC-07",
+      "domain": "Equipment",
+      "control": "Automatic updates; critical patches within 7 days.",
+      "status": "Yes",
+      "owner": "IT Support Provider",
+      "due": "",
+      "notes": "Automatic updates on."
+    },
+    {
+      "code": "SEC-08",
+      "domain": "Equipment",
+      "control": "Antivirus or endpoint protection active and up to date.",
+      "status": "Yes",
+      "owner": "IT Support Provider",
+      "due": "",
+      "notes": "Built-in protection, centrally checked."
+    },
+    {
+      "code": "SEC-09",
+      "domain": "Equipment",
+      "control": "Disk encryption on laptops and on phones or tablets holding data.",
+      "status": "Partial",
+      "owner": "Dr. A / Dr. B",
+      "due": "2027-03-31",
+      "notes": "Doctor's laptop is encrypted. Visiting physician's laptop and staff phones to be confirmed."
+    },
+    {
+      "code": "SEC-10",
+      "domain": "Network",
+      "control": "Router and firewall configured; default password changed.",
+      "status": "Yes",
+      "owner": "IT Support Provider",
+      "due": "",
+      "notes": ""
+    },
+    {
+      "code": "SEC-11",
+      "domain": "Network",
+      "control": "Patients' Wi-Fi separate from the practice network; WPA2 or WPA3.",
+      "status": "Yes",
+      "owner": "IT Support Provider",
+      "due": "",
+      "notes": "Guest network is separate."
+    },
+    {
+      "code": "SEC-12",
+      "domain": "Equipment",
+      "control": "Removable media (USB) forbidden or encrypted.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-02-28",
+      "notes": "Rule adopted. USB ports not blocked."
+    },
+    {
+      "code": "SEC-13",
+      "domain": "Equipment",
+      "control": "Personal devices: written rules, or forbidden for health data.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "Rule in the policy. To be added to the staff notice."
+    },
+    {
+      "code": "SEC-14",
+      "domain": "Equipment",
+      "control": "Connected medical equipment inventoried, updated and separated.",
+      "status": "Partial",
+      "owner": "Nurse C",
+      "due": "2027-03-31",
+      "notes": "Ultrasound and ECG inventoried. Update status to be asked from the suppliers."
+    },
+    {
+      "code": "SEC-15",
+      "domain": "Backups",
+      "control": "Rule of 3-2-1; encrypted copies.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-02-28",
+      "notes": "Encrypted disk exists. No off-site copy of the administrative files yet. Provider backup of clinical data to be covered in the Art. 28 agreement."
+    },
+    {
+      "code": "SEC-16",
+      "domain": "Backups",
+      "control": "Restore test at least quarterly, with the result noted.",
+      "status": "No",
+      "owner": "Dr. A",
+      "due": "2027-03-31",
+      "notes": "Never tested. First test planned, then quarterly."
+    },
+    {
+      "code": "SEC-17",
+      "domain": "Continuity",
+      "control": "Procedure for working without the system (paper forms).",
+      "status": "Partial",
+      "owner": "Nurse C",
+      "due": "2027-02-28",
+      "notes": "Forms drafted, not yet printed and stored."
+    },
+    {
+      "code": "SEC-18",
+      "domain": "Physical",
+      "control": "Archive, equipment and video system in locked rooms; key list.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "Rooms locked. No key list yet."
+    },
+    {
+      "code": "SEC-19",
+      "domain": "Physical",
+      "control": "Files in locked cabinets; clean desk and clean screen.",
+      "status": "Partial",
+      "owner": "Receptionist D",
+      "due": "2027-01-31",
+      "notes": "Cabinets locked. Clean-desk habit varies at reception."
+    },
+    {
+      "code": "SEC-20",
+      "domain": "Physical",
+      "control": "Reception screens not visible to patients; discretion at the desk.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "The reception screen is partly visible from the waiting room. Privacy filter to be fitted."
+    },
+    {
+      "code": "SEC-21",
+      "domain": "Physical",
+      "control": "Secure destruction of paper; secure wiping of equipment.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "Shredding Provider under contract."
+    },
+    {
+      "code": "SEC-22",
+      "domain": "Physical",
+      "control": "Visitors and providers accompanied in areas with data.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "The CCTV installer works under supervision."
+    },
+    {
+      "code": "SEC-23",
+      "domain": "Communication",
+      "control": "No health data by plain e-mail or personal messaging apps.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-02-28",
+      "notes": "Lab results arrive and leave by e-mail. Password-protected files rule adopted; not yet checked in practice."
+    },
+    {
+      "code": "SEC-24",
+      "domain": "Communication",
+      "control": "Secure channels for laboratories, collaborators and patients.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-03-31",
+      "notes": "No secure portal. Password-protected files used."
+    },
+    {
+      "code": "SEC-25",
+      "domain": "Communication",
+      "control": "Photographing documents and screens with personal devices is forbidden.",
+      "status": "No",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "To be communicated in the staff notice and the training."
+    },
+    {
+      "code": "SEC-26",
+      "domain": "Communication",
+      "control": "Caller's identity checked before data is given by phone.",
+      "status": "Partial",
+      "owner": "Receptionist D",
+      "due": "2027-01-31",
+      "notes": "Practised informally. To be written into the training."
+    },
+    {
+      "code": "SEC-27",
+      "domain": "Providers",
+      "control": "Art. 28 agreements with all providers that process data.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-03-31",
+      "notes": "Signed with most providers. CCTV installer limited; e-mail provider on standard terms (module 9)."
+    },
+    {
+      "code": "SEC-28",
+      "domain": "Providers",
+      "control": "Security review of providers at selection and yearly.",
+      "status": "No",
+      "owner": "Dr. A",
+      "due": "2027-03-31",
+      "notes": "None done yet (module 9)."
+    },
+    {
+      "code": "SEC-29",
+      "domain": "Staff",
+      "control": "Confidentiality undertakings signed by all staff.",
+      "status": "No",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "To be signed when the programme starts."
+    },
+    {
+      "code": "SEC-30",
+      "domain": "Staff",
+      "control": "Training on joining and yearly, with attendance records.",
+      "status": "No",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "First session planned (module 8)."
+    },
+    {
+      "code": "SEC-31",
+      "domain": "Staff",
+      "control": "Leaving procedure (access, equipment, keys).",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-02-28",
+      "notes": "In the policy. Checklist to be created."
+    },
+    {
+      "code": "SEC-32",
+      "domain": "Monitoring",
+      "control": "Periodic sample review of access logs.",
+      "status": "No",
+      "owner": "Dr. A",
+      "due": "2027-03-31",
+      "notes": "Whether the practice software provides logs is to be confirmed."
+    },
+    {
+      "code": "SEC-33",
+      "domain": "Incidents",
+      "control": "Incident procedure known to staff; contact list displayed.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-01-31",
+      "notes": "Procedure adopted December 2026. Staff briefing planned."
+    },
+    {
+      "code": "SEC-34",
+      "domain": "Incidents",
+      "control": "Breach register kept up to date.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "Created December 2026."
+    },
+    {
+      "code": "SEC-35",
+      "domain": "Governance",
+      "control": "Asset inventory up to date and tied to the ROPA.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "A-01 to A-14, December 2026."
+    },
+    {
+      "code": "SEC-36",
+      "domain": "Governance",
+      "control": "Risk assessment reviewed yearly.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "First assessment December 2026."
+    },
+    {
+      "code": "SEC-37",
+      "domain": "Governance",
+      "control": "New systems and providers assessed before introduction.",
+      "status": "Partial",
+      "owner": "Dr. A",
+      "due": "2027-02-28",
+      "notes": "Rule adopted. No example yet."
+    },
+    {
+      "code": "SEC-38",
+      "domain": "Governance",
+      "control": "Policy reviewed at least yearly; exceptions approved in writing.",
+      "status": "Yes",
+      "owner": "Dr. A",
+      "due": "",
+      "notes": "Next review December 2027."
+    }
+  ],
+  "assets": [
+    {
+      "Asset": "A-01",
+      "Name": "Practice software (cloud)",
+      "Data held": "Patient files, appointments, billing, images",
+      "Location": "Provider cloud, EU",
+      "Owner": "S-01",
+      "Provider": "V-01",
+      "Controls": "SEC-02, 03, 04, 15, 27, 32"
+    },
+    {
+      "Asset": "A-02",
+      "Name": "Reception PC",
+      "Data held": "Browser access to A-01; temporary scans",
+      "Location": "Reception",
+      "Owner": "S-04",
+      "Provider": "V-03",
+      "Controls": "SEC-01, 06, 07, 08, 19, 20"
+    },
+    {
+      "Asset": "A-03",
+      "Name": "Doctor's laptop",
+      "Data held": "Browser access to A-01; administrative files",
+      "Location": "Encrypted disk",
+      "Owner": "S-01",
+      "Provider": "V-03",
+      "Controls": "SEC-06, 07, 08, 09"
+    },
+    {
+      "Asset": "A-04",
+      "Name": "Visiting physician's laptop",
+      "Data held": "His own tools; own account on A-01",
+      "Location": "His device",
+      "Owner": "S-02",
+      "Provider": "—",
+      "Controls": "SEC-09, 13"
+    },
+    {
+      "Asset": "A-05",
+      "Name": "Ultrasound unit",
+      "Data held": "Images, short-term local storage",
+      "Location": "Treatment room",
+      "Owner": "S-02",
+      "Provider": "—",
+      "Controls": "SEC-14"
+    },
+    {
+      "Asset": "A-06",
+      "Name": "ECG unit",
+      "Data held": "Traces",
+      "Location": "Treatment room",
+      "Owner": "S-03",
+      "Provider": "—",
+      "Controls": "SEC-14"
+    },
+    {
+      "Asset": "A-07",
+      "Name": "Business e-mail",
+      "Data held": "Appointment requests, lab results, referrals",
+      "Location": "Cloud suite, EU region",
+      "Owner": "S-01",
+      "Provider": "V-06",
+      "Controls": "SEC-02, 03, 23, 24"
+    },
+    {
+      "Asset": "A-08",
+      "Name": "Reminder service (SMS / e-mail)",
+      "Data held": "Names, phone numbers, appointment times",
+      "Location": "Provider cloud",
+      "Owner": "S-04",
+      "Provider": "V-02",
+      "Controls": "SEC-27"
+    },
+    {
+      "Asset": "A-09",
+      "Name": "Website with contact form",
+      "Data held": "Form submissions, cookie data",
+      "Location": "Hosting, EU",
+      "Owner": "S-01",
+      "Provider": "V-07",
+      "Controls": "SEC-27"
+    },
+    {
+      "Asset": "A-10",
+      "Name": "CCTV system",
+      "Data held": "Video, 7-day buffer",
+      "Location": "Locked cabinet",
+      "Owner": "S-01",
+      "Provider": "V-05",
+      "Controls": "SEC-18, 22, 32"
+    },
+    {
+      "Asset": "A-11",
+      "Name": "Paper records",
+      "Data held": "Forms, lab printouts, HR files",
+      "Location": "Locked cabinet",
+      "Owner": "S-04 / S-01",
+      "Provider": "V-10",
+      "Controls": "SEC-18, 19, 21"
+    },
+    {
+      "Asset": "A-12",
+      "Name": "Admin backup disk",
+      "Data held": "Encrypted copy of non-clinical files",
+      "Location": "Locked cabinet",
+      "Owner": "S-01",
+      "Provider": "—",
+      "Controls": "SEC-15, 16, 18"
+    },
+    {
+      "Asset": "A-13",
+      "Name": "Wi-Fi",
+      "Data held": "Traffic (staff and guest networks)",
+      "Location": "Router, admin room",
+      "Owner": "S-06",
+      "Provider": "V-03",
+      "Controls": "SEC-10, 11"
+    },
+    {
+      "Asset": "A-14",
+      "Name": "Staff mobile phones",
+      "Data held": "Calls and texts for appointment logistics",
+      "Location": "Personal / company",
+      "Owner": "Each user",
+      "Provider": "—",
+      "Controls": "SEC-09, 13, 23, 25"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "Phishing, a compromised account",
+      "impact": "High",
+      "likelihood": "Medium",
+      "measures": "Passwords and two-step verification (4), training (11)"
+    },
+    {
+      "risk": "Ransomware or other malware",
+      "impact": "High",
+      "likelihood": "Medium",
+      "measures": "Updates and antivirus (5), backups (6)"
+    },
+    {
+      "risk": "Lost or stolen device",
+      "impact": "High",
+      "likelihood": "Medium",
+      "measures": "Encryption, screen lock (4, 5)"
+    },
+    {
+      "risk": "Unauthorised access by staff (curiosity, misuse)",
+      "impact": "High",
+      "likelihood": "Low",
+      "measures": "Role-based access, logs (4, 10)"
+    },
+    {
+      "risk": "Data sent to the wrong person (e-mail, SMS)",
+      "impact": "High",
+      "likelihood": "Medium",
+      "measures": "Communication rules (8), training (11)"
+    },
+    {
+      "risk": "Patients or visitors seeing data (screen, reception)",
+      "impact": "Medium",
+      "likelihood": "Medium",
+      "measures": "Physical security (7)"
+    },
+    {
+      "risk": "Paper documents lost or stolen",
+      "impact": "High",
+      "likelihood": "Low",
+      "measures": "Locked cabinets, clean desk (7)"
+    },
+    {
+      "risk": "Backups missing or failing",
+      "impact": "High",
+      "likelihood": "Medium",
+      "measures": "Backups and restore tests (6)"
+    },
+    {
+      "risk": "A provider is compromised",
+      "impact": "High",
+      "likelihood": "Low",
+      "measures": "Contracts and provider review (9)"
+    },
+    {
+      "risk": "Data visible through the CCTV system, or unauthorised access to footage",
+      "impact": "Medium",
+      "likelihood": "Low",
+      "measures": "Restricted access to footage (7, 10)"
+    }
+  ],
+  "accessMatrix": [
+    {
+      "Data / system": "Clinical record",
+      "Physician in charge": "Full",
+      "Visiting physician": "Own patients only",
+      "Nurse": "Patients in care",
+      "Reception": "—",
+      "Accounting Firm": "—",
+      "IT Support Provider": "— (technical access only when justified, logged)"
+    },
+    {
+      "Data / system": "Identification and contact data",
+      "Physician in charge": "Full",
+      "Visiting physician": "Own patients",
+      "Nurse": "Full",
+      "Reception": "Full",
+      "Accounting Firm": "—",
+      "IT Support Provider": "—"
+    },
+    {
+      "Data / system": "Appointments",
+      "Physician in charge": "Full",
+      "Visiting physician": "Own patients",
+      "Nurse": "Full",
+      "Reception": "Full",
+      "Accounting Firm": "—",
+      "IT Support Provider": "—"
+    },
+    {
+      "Data / system": "Billing and payments",
+      "Physician in charge": "Read",
+      "Visiting physician": "—",
+      "Nurse": "—",
+      "Reception": "Full",
+      "Accounting Firm": "Accounting documents",
+      "IT Support Provider": "—"
+    },
+    {
+      "Data / system": "HR and payroll",
+      "Physician in charge": "Full",
+      "Visiting physician": "—",
+      "Nurse": "—",
+      "Reception": "—",
+      "Accounting Firm": "Payroll",
+      "IT Support Provider": "—"
+    },
+    {
+      "Data / system": "CCTV footage",
+      "Physician in charge": "Authorised person only",
+      "Visiting physician": "—",
+      "Nurse": "—",
+      "Reception": "—",
+      "Accounting Firm": "—",
+      "IT Support Provider": "Maintenance, no viewing"
+    },
+    {
+      "Data / system": "System administration",
+      "Physician in charge": "Account admin",
+      "Visiting physician": "—",
+      "Nurse": "—",
+      "Reception": "—",
+      "Accounting Firm": "—",
+      "IT Support Provider": "Full, logged"
+    }
+  ]
+}

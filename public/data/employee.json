@@ -1,0 +1,170 @@
+{
+  "dataCategories": [
+    "Identification: name, national ID number (CNP), identity document, date and place of birth, citizenship.",
+    "Contact: address, phone, e-mail.",
+    "The working relationship: role, contract, pay, working time, leave, appraisals, sanctions, training done.",
+    "Qualifications: studies, diplomas, licence to practise, professional authorisations, professional liability insurance.",
+    "Financial: bank account, income, deductions.",
+    "Dependants, for deductions or leave, if you give us the information.",
+    "Health, only as the law requires: the occupational health certificate and sick leave certificates.",
+    "Use of our systems: user accounts and access logs of the practice's applications.",
+    "Video images, from the cameras in the common areas (section 5)."
+  ],
+  "purposes": [
+    {
+      "Purpose": "Making and running your contract; pay",
+      "Legal basis": "Art. 6(1)(b) and (c)",
+      "Data": "Identification, contact, contract, pay, bank account",
+      "Kept for": "Personnel file: while you work here and the period set by archiving law after (RET-11(a)). Payroll statements: 5 years (RET-11(b))"
+    },
+    {
+      "Purpose": "Legal duties: employee register, tax and social filings, reports to authorities",
+      "Legal basis": "Art. 6(1)(c). National ID number: Art. 4 of Law no. 190/2018",
+      "Data": "Identification, CNP, income",
+      "Kept for": "As above"
+    },
+    {
+      "Purpose": "Health and safety at work, occupational health, sick leave",
+      "Legal basis": "Art. 6(1)(c); Art. 9(2)(b) (employment and social security law)",
+      "Data": "Occupational health certificate, sick leave certificates",
+      "Kept for": "As above"
+    },
+    {
+      "Purpose": "Working time and leave records",
+      "Legal basis": "Art. 6(1)(b) and (c)",
+      "Data": "Hours, attendance, leave",
+      "Kept for": "As above"
+    },
+    {
+      "Purpose": "Checking qualifications and the right to practise",
+      "Legal basis": "Art. 6(1)(b) and (c)",
+      "Data": "Diplomas, certificates, authorisations",
+      "Kept for": "As above"
+    },
+    {
+      "Purpose": "Safety of people and property: video cameras",
+      "Legal basis": "Art. 6(1)(f), after a written assessment; Art. 5 of Law no. 190/2018",
+      "Data": "Video images",
+      "Kept for": "7 days, never more than 30 (RET-06)"
+    },
+    {
+      "Purpose": "Security of information: accounts and access logs",
+      "Legal basis": "Art. 6(1)(c) (Art. 32 GDPR) and (f)",
+      "Data": "User name, access logs",
+      "Kept for": "A period to be set with the software provider by 31 March 2027; until then as the software keeps them"
+    },
+    {
+      "Purpose": "Training and proof of training",
+      "Legal basis": "Art. 6(1)(c) and (f)",
+      "Data": "Name, signature, topics",
+      "Kept for": "With the personnel file (RET-11(a))"
+    },
+    {
+      "Purpose": "Establishing, exercising or defending legal claims, if needed",
+      "Legal basis": "Art. 6(1)(f); Art. 9(2)(f)",
+      "Data": "The data the case needs",
+      "Kept for": "While the case lasts and the legal time limits run"
+    }
+  ],
+  "recipients": [
+    "Dr. A as the manager of the practice, and only as far as the role requires.",
+    "Public authorities, as the law requires: the labour inspectorate and the general register of employees (REGES), the tax authority, the pension and health insurance funds, the professional college.",
+    "Providers who help us, under contract (processors): the accounting firm, for payroll; the providers of the practice software and of IT support, for technical access; the CCTV installer, only if it must reach the recorder.",
+    "The occupational health provider, which acts as a separate controller for medical checks; the bank that pays your salary."
+  ],
+  "cctvRules": [
+    "Areas: only common areas: the entrance vestibule, reception, the waiting room and the corridor to the rooms. There is no camera in consultation rooms, the treatment room, the toilet or the staff room. No sound is recorded.",
+    "Purposes: the safety of patients and staff, the protection of property and the investigation of incidents. The images are not used to assess your work, your hours or your conduct, and nobody watches them live. If an image shows an incident covered by the purposes (for example a theft or an assault), it can be used to deal with that incident, including with the police.",
+    "Basis: the practice's legitimate interest (Art. 6(1)(f) GDPR), after a written assessment that also weighs your rights. The cameras were already in place when this notice was prepared. The practice has since assessed them, consulted you and fixed these rules.",
+    "Retention: 7 days, then automatic overwriting, unless the images are needed for an incident or requested by an authority. Never more than 30 days.",
+    "Access: Dr. A only, with an individual account. Every viewing beyond the monthly check, and every export, is logged. Authorities may receive images on a written request that states the legal basis.",
+    "Consultation: there is no union or employee representative, so Dr. A consulted both employees directly on Thursday 3 December 2026; the record is kept.",
+    "Your rights: including access to images of you, and objection (section 7). Ask Dr. A."
+  ],
+  "rights": [
+    "Access (Art. 15): what data we hold about you, and a copy.",
+    "Rectification (Art. 16): correct data that is wrong or incomplete.",
+    "Erasure (Art. 17): in some cases. It does not apply to data the law requires us to keep.",
+    "Restriction (Art. 18): in some situations, limiting the use of the data.",
+    "Portability (Art. 20): where the law provides for it.",
+    "Objection (Art. 21): in particular to processing based on our legitimate interest, such as the cameras.",
+    "Complaint: to ANSPDCP (www.dataprotection.ro) or to the competent court. You do not need to go through the practice first."
+  ],
+  "lifecycle": [
+    {
+      "Stage": "Before the first day",
+      "What is done with the data": "Ask only for what the contract and the law need: identity, CNP for payroll, bank account, qualifications. Do not ask for health data, other than the occupational health certificate, through the provider. File everything in the personnel file.",
+      "Document or control": "Employee notice; RET-11(a)",
+      "Who": "Dr. A",
+      "When": "Before the contract is signed"
+    },
+    {
+      "Stage": "Before access to any system",
+      "What is done with the data": "The notice is given and acknowledged. The confidentiality undertaking is signed. The 45-minute session is held. An individual account is created with the least access the role needs.",
+      "Document or control": "Annex 1; Staff Pack undertaking (SEC-29); training plan (SEC-30)",
+      "Who": "Dr. A",
+      "When": "Before the account is switched on"
+    },
+    {
+      "Stage": "First day",
+      "What is done with the data": "Show the camera areas and the notice at reception. Hand over the Staff Pack and keys. Note the keys in the key list.",
+      "Document or control": "Staff Pack; key list (SEC-18)",
+      "Who": "Dr. A",
+      "When": "First day"
+    },
+    {
+      "Stage": "During the job",
+      "What is done with the data": "Keep the file correct. Update the notice when processing changes and give the new version. Hold the annual session. Review access rights.",
+      "Document or control": "Training plan; access review (module 7)",
+      "Who": "Dr. A",
+      "When": "Each December; access review each June"
+    },
+    {
+      "Stage": "When someone leaves",
+      "What is done with the data": "Switch off accounts the same day. Collect keys, devices and papers. Remind the person that confidentiality continues. Close the personnel file and note the date: the retention periods start.",
+      "Document or control": "Security policy 4 (joining and leaving); SEC-05, SEC-31; RET-11(a) and (b)",
+      "Who": "Dr. A",
+      "When": "Last day"
+    },
+    {
+      "Stage": "After they leave",
+      "What is done with the data": "Keep the file and payroll records for the legal periods. Destroy them when the periods end and note it in the destruction register.",
+      "Document or control": "Retention schedule; destruction register",
+      "Who": "Dr. A",
+      "When": "When each period ends"
+    },
+    {
+      "Stage": "Candidates who are not hired",
+      "What is done with the data": "Delete the CV and notes 6 months after the process ends, or 12 months if the person agreed that you keep it.",
+      "Document or control": "RET-12",
+      "Who": "Receptionist D",
+      "When": "Each January and July"
+    }
+  ],
+  "acknowledgements": [
+    {
+      "Name and role": "Nurse C",
+      "Status": "Employee",
+      "Notice version": "1.0",
+      "Date given": "Thu 3 Dec 2026",
+      "How": "Meeting (consultation on the cameras)",
+      "Acknowledgement on file": "Yes"
+    },
+    {
+      "Name and role": "Receptionist D",
+      "Status": "Employee",
+      "Notice version": "1.0",
+      "Date given": "Thu 3 Dec 2026",
+      "How": "Meeting (consultation on the cameras)",
+      "Acknowledgement on file": "Yes"
+    },
+    {
+      "Name and role": "Dr. B",
+      "Status": "Collaborator (visiting physician)",
+      "Notice version": "1.0",
+      "Date given": "Tue 26 Jan 2027",
+      "How": "Start-up session (module 8)",
+      "Acknowledgement on file": "Yes"
+    }
+  ]
+}

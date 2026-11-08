@@ -1,0 +1,376 @@
+{
+  "deadlines": [
+    {
+      "stage": "Passing the request to the handler",
+      "deadline": "At most 1 working day from receipt."
+    },
+    {
+      "stage": "Logging and acknowledgement (T1)",
+      "deadline": "At most 3 working days."
+    },
+    {
+      "stage": "Reply on the substance",
+      "deadline": "Without undue delay and within one month of receiving the request (Art. 12(3) GDPR). Recommended internal target: 25 calendar days."
+    },
+    {
+      "stage": "Extension for complex or numerous requests",
+      "deadline": "By up to two further months. The person is told of the extension and the reason within the first month (T11)."
+    },
+    {
+      "stage": "Identity check / clarifications",
+      "deadline": "Requested without delay (T2). The one-month period runs from receipt of the information needed. Interpretation per EDPB guidance on the right of access – to be confirmed."
+    },
+    {
+      "stage": "Refusal to act on a request",
+      "deadline": "The person is told without delay and within one month of the reasons, and of the right to complain and to go to court (Art. 12(4) GDPR) (T12)."
+    }
+  ],
+  "rights": [
+    {
+      "right": "Access (Art. 15)",
+      "meaning": "Confirmation that we process the person's data, a copy of it and the Art. 15 information (purposes, categories, recipients, retention period, rights, source, automated decisions, transfers). The copy is given electronically if the request was electronic.",
+      "limits": "The first copy is free. The copy must not harm other people's rights (Art. 15(4)): third-party data is covered. A patient's access to medical documents is also governed by patient rights law (Law no. 46/2003 in Romania) – to be confirmed. The physician may offer an explanation.",
+      "template": "T3"
+    },
+    {
+      "right": "Rectification (Art. 16)",
+      "meaning": "Correcting inaccurate data (for example address, phone, identification errors) and completing incomplete data.",
+      "limits": "Medical opinions and diagnoses are not changed on request; the person may add a supplementary statement attached to the file. Corrections to the medical record are made by a dated note, without deleting the original entry where the law requires it to be kept. To be confirmed with the practice software provider.",
+      "template": "T4"
+    },
+    {
+      "right": "Erasure (Art. 17)",
+      "meaning": "Deleting data that is no longer needed, processed without a basis, or based on withdrawn consent.",
+      "limits": "Data the law requires us to keep is not deleted (medical record, test results, medical images, accounting documents) – Art. 17(3)(b) and (c) GDPR. Check the retention schedule. Usually erasable: promotional contacts, non-essential contact data, copies of ID without a retention duty, online accounts. Note the date the remaining data will be deleted.",
+      "template": "T5 or T6"
+    },
+    {
+      "right": "Restriction (Art. 18)",
+      "meaning": "Marking data so that it is only stored, not used, in the Art. 18 cases (accuracy contested, unlawful processing with opposition to erasure, data needed for a legal claim, objection under review).",
+      "limits": "The physician assesses whether restriction affects care and informs the patient. Restricted data may be used with the person's consent, for legal claims, to protect another person or for important public interest. The person is told before the restriction is lifted.",
+      "template": "T7"
+    },
+    {
+      "right": "Portability (Art. 20)",
+      "meaning": "Receiving the data the person provided in a structured, commonly used, machine-readable format, or having it sent to another controller where technically feasible.",
+      "limits": "Applies to processing based on consent or contract and carried out by automated means, and to data provided by the person (including observed data), not to medical conclusions. Medical documents are provided under the right of access and patient rights law. To be confirmed.",
+      "template": "T8"
+    },
+    {
+      "right": "Objection (Art. 21)",
+      "meaning": "The person objects to processing based on legitimate interest (for example CCTV) or to promotional messages.",
+      "limits": "Objection to marketing is honoured at once, with no assessment. For legitimate interest, processing stops unless there are compelling legitimate grounds that override; the assessment is documented. Processing for care and legal obligations is outside this right.",
+      "template": "T9"
+    },
+    {
+      "right": "Withdrawal of consent (Art. 7(3))",
+      "meaning": "Applies only to processing based on consent (promotional communications).",
+      "limits": "Withdrawing is as easy as giving consent and is processed immediately. It does not affect earlier processing and does not affect access to medical services.",
+      "template": "T10"
+    },
+    {
+      "right": "Automated decisions (Art. 22)",
+      "meaning": "The clinic takes no decisions based solely on automated processing and does no profiling.",
+      "limits": "If asked, answer informally; no special procedure is needed.",
+      "template": "Short reply"
+    },
+    {
+      "right": "Complaint (Art. 77 and 79)",
+      "meaning": "The right to go to the supervisory authority or to court.",
+      "limits": "Mentioned in every reply that refuses, wholly or partly.",
+      "template": "All templates"
+    }
+  ],
+  "templates": [
+    {
+      "code": "T0",
+      "title": "Request form for exercising rights (optional)",
+      "text": [
+        "Requester: Name and surname: [ ]  |  Phone / e-mail: [ ]",
+        "Capacity: ☐ Patient   ☐ Legal representative / authorised person (proof attached)   ☐ Employee / candidate   ☐ Other: [ ]",
+        "Rights I wish to exercise:",
+        "☐ Access to my data and a copy   ☐ Rectification   ☐ Erasure   ☐ Restriction   ☐ Portability   ☐ Objection   ☐ Withdrawal of consent",
+        "Details (which data, which period, what you want corrected or deleted): [ ]",
+        "Preferred way to receive the reply: ☐ Collection in person   ☐ E-mail   ☐ Other: [ ]",
+        "Date: [ ]     Signature: [ ]",
+        "This form is optional: a request can be made in any other way. We will reply within one month of receipt. To verify identity we may ask for further information."
+      ]
+    },
+    {
+      "code": "T1",
+      "title": "Acknowledgement of receipt",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Acknowledgement of your request about your personal data",
+        "Dear [name],",
+        "We confirm that we received your request about [right exercised] on [date]. It was registered under no. [ ].",
+        "We will reply within one month of receipt, that is by [deadline].",
+        "[If needed: To deal with the request we need the information in the attached message.]",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T2",
+      "title": "Request for clarification / identity verification",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Your request of [date] – information needed",
+        "Dear [name],",
+        "To protect your medical data we must make sure the request comes from the person concerned (Art. 12(6) GDPR). Please [come to the clinic with an ID document / confirm the following details by reply: ...].",
+        "[To identify the data you want correctly, please specify: ...]",
+        "The one-month period for our reply runs from receipt of this information. You do not need to send a copy of your ID document. [Delete if requested.]",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T3",
+      "title": "Reply to an access request (Art. 15)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date] – right of access",
+        "Dear [name],",
+        "We confirm that we [process / do not process] personal data about you. A copy is attached, in [electronic / paper] form. The first copy is free of charge. The information required by law is as follows:",
+        "- Purposes of processing: providing medical services, medical records, invoicing, [other purposes].",
+        "- Categories of data: identification and contact data, medical data, payment data, [others].",
+        "- Recipients: [health insurance fund, partner laboratory, accountant, medical software provider, etc.].",
+        "- Retention period: [for example: medical record – ... years from the last consultation, as set in the retention schedule].",
+        "- Source of the data: you [and other healthcare providers / the insurance fund].",
+        "- Automated decisions or profiling: none. Transfers outside the EU/EEA: none. [Confirm.]",
+        "- Your rights: rectification, erasure (within the limits of the law), restriction, objection, [portability].",
+        "[If third-party data or protected information was left out: Data about other people was removed from the copy to protect their rights.]",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T4",
+      "title": "Reply to a rectification request (Art. 16)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date] – rectification",
+        "Dear [name],",
+        "We have corrected / completed the following data: [data, before → after], with effect from [date]. [The correction was made by a dated note, without deleting the original entry, in line with medical record rules.]",
+        "[If the request concerns a medical opinion: Medical opinions and diagnoses cannot be changed on request, but you may add a supplementary statement, which we will attach to your file.]",
+        "We have told the recipients to whom we passed the data about the correction: [ ]. You can ask for the list.",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T5",
+      "title": "Erasure carried out (Art. 17)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date] – erasure",
+        "Dear [name],",
+        "We deleted your data about [categories of data] from [the medical application / contact lists / other systems] on [date]. From backups, the data disappears at the next rotation, at the latest by [date]. We informed the recipients: [ ].",
+        "[If data remains: data about ... remains, because the law requires us to keep it – see the next message.]",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T6",
+      "title": "Erasure refused, wholly or partly (legal obligation)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date] – erasure",
+        "Dear [name],",
+        "We cannot currently delete data about [categories: for example medical record, test results, accounting documents], because the law obliges us to keep it (Art. 17(3)(b) GDPR; [applicable legal act]). The retention period is [ ], until about [estimated date].",
+        "While the data is kept, it is used only for the purposes the law requires and access is limited. When the period ends, the data will be deleted.",
+        "[We deleted the data for which there is no duty to keep: ...]",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T7",
+      "title": "Restriction of processing (Art. 18)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Restriction of the processing of your data",
+        "Dear [name],",
+        "Following your request, we marked the data [ ] as restricted, with effect from [date]. While restricted, we will only store it and will use it only with your consent, to defend a legal claim, to protect another person's rights or for important public interest.",
+        "[The physician assessed the effect of the restriction on your care: ...]",
+        "We will tell you before the restriction is lifted (Art. 18(3) GDPR).",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T8",
+      "title": "Reply to a portability request (Art. 20)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date] – data portability",
+        "Dear [name],",
+        "Attached is the data you provided to us, in a structured, commonly used and machine-readable format ([PDF / CSV / XML]). [At your request, we can send it directly to another healthcare provider, if technically possible.]",
+        "Medical documents created by the clinic (for example diagnosis, results, recommendations) can be given to you under the right of access. [Adapt.]",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T9",
+      "title": "Reply to an objection (Art. 21)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your objection of [date]",
+        "Dear [name],",
+        "Option A – objection accepted (including promotional messages): We stopped processing your data for [purpose] with effect from [date]. Your medical services are not affected.",
+        "Option B – objection rejected (legitimate interest, for example CCTV): We assessed the grounds you gave. We consider that our legitimate interest – [the security of people and property] – overrides, because [specific reasons: common area, short retention period, restricted access, no equally effective alternative]. Processing continues on these terms. [If possible, offer a partial solution.]",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T10",
+      "title": "Withdrawal of consent (Art. 7(3))",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Confirmation that you withdrew your consent",
+        "Dear [name],",
+        "We have noted that you withdrew your consent for [promotional communications] with effect from [date]. We will not send you such messages again. Withdrawal does not affect earlier processing and does not affect access to medical services.",
+        "[Your address stays on a suppression list, strictly so that you are not contacted again.]",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T11",
+      "title": "Extension of the reply deadline (Art. 12(3)) – sent within the first month",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Extension of the deadline for your request of [date]",
+        "Dear [name],",
+        "Your request is [complex / received together with a large number of requests], so, under Art. 12(3) GDPR, we are extending the deadline for our reply by [up to two months], to [date]. Reason for the extension: [ ].",
+        "We will give you our reply by that date.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T12",
+      "title": "Refusal to act on a request (Art. 12(4) and (5))",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date]",
+        "Dear [name],",
+        "We cannot act on your request because [reason: the request is manifestly unfounded or excessive, because ... / we could not verify your identity / the data requested belongs to another person / other situation provided by law].",
+        "[Alternatively, for excessive requests: we can act on the request for a reasonable fee of ..., based on administrative costs.]",
+        "You have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T13",
+      "title": "Notice to recipients (Art. 19) – to providers or partners",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Recipient – provider / partner]",
+        "Subject: Rectification / erasure / restriction of data – ref. [internal no.]",
+        "We inform you that, at the request of the data subject, we [rectified / deleted / restricted] the data identified by the reference above. Please carry out the same operation in your systems within [ ] days and confirm in writing. We do not include medical data in this message; details are sent through a secure channel if needed.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    },
+    {
+      "code": "T14",
+      "title": "Reply to a request for access to video images (CCTV)",
+      "text": [
+        "[Name of the practice] | [Address] | [E-mail] | [Phone]",
+        "No. [ ] / [date]",
+        "To: [Name of requester]",
+        "Subject: Reply to your request of [date] – video images",
+        "Dear [name],",
+        "Option A – images no longer exist: The images of [date / time slot] no longer exist, because they are deleted automatically after [X days], as stated in the privacy notice.",
+        "Option B – images exist: The images of [date / time slot] can be viewed at the clinic, under the supervision of an authorised person, on [date]. [Alternatively: A copy is attached, with the identity of other people protected.] To identify the images, [please give the date, time slot and area].",
+        "Images cannot be given in a form that would identify other people.",
+        "If you are not satisfied with the reply, you have the right to lodge a complaint with [supervisory authority] and to apply to the competent court.",
+        "Yours sincerely,",
+        "[Name, role]"
+      ]
+    }
+  ],
+  "registerExamples": [
+    {
+      "No.": "REQ-2027-001",
+      "Date received": "1 Mar 2027",
+      "Channel": "At reception",
+      "Requester (reference)": "P-01",
+      "Right(s)": "Access; erasure",
+      "Identity verified (date, method)": "4 Mar 2027, ID shown in person, not copied",
+      "Handler": "Dr. A",
+      "Deadline": "1 Apr 2027",
+      "Extension (reason, informed on)": "None",
+      "Decision (granted / partly / refused)": "Access granted; erasure partly refused (legal retention)",
+      "Reply date": "15 Mar 2027",
+      "Art. 19 (yes / no)": "Yes – Messaging Provider",
+      "Notes": "Marketing contact deleted; remaining data deletion date given"
+    },
+    {
+      "No.": "REQ-2027-002",
+      "Date received": "22 Mar 2027",
+      "Channel": "E-mail",
+      "Requester (reference)": "P-02",
+      "Right(s)": "Withdrawal of consent",
+      "Identity verified (date, method)": "Sender address matches file; low-risk request",
+      "Handler": "Dr. A",
+      "Deadline": "22 Apr 2027",
+      "Extension (reason, informed on)": "None",
+      "Decision (granted / partly / refused)": "Granted",
+      "Reply date": "23 Mar 2027",
+      "Art. 19 (yes / no)": "Yes – Messaging Provider",
+      "Notes": "Processed on the day; suppression list entry kept"
+    },
+    {
+      "No.": "REQ-2027-003",
+      "Date received": "9 Jul 2027",
+      "Channel": "At reception",
+      "Requester (reference)": "V-01",
+      "Right(s)": "Access to CCTV images",
+      "Identity verified (date, method)": "Not needed; the images no longer exist",
+      "Handler": "Dr. A",
+      "Deadline": "9 Aug 2027",
+      "Extension (reason, informed on)": "None",
+      "Decision (granted / partly / refused)": "No images held (deleted after 7 days)",
+      "Reply date": "12 Jul 2027",
+      "Art. 19 (yes / no)": "No",
+      "Notes": "Requested date was 11 days earlier; T14 variant A"
+    }
+  ]
+}

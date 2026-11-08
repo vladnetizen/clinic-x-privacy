@@ -1,0 +1,19 @@
+{
+  "name": "clinic-x-privacy-programme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A worked privacy programme for a fictional small clinic (educational case study).",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.42.10",
+    "astro": "7.4.7"
+  }
+}

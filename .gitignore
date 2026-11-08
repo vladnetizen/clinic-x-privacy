@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+# Personal deny-list used by `npm run check`. Never commit it.
+.privacy-denylist.txt
+.env
+.env.*

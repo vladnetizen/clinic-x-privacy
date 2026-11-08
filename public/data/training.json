@@ -1,0 +1,174 @@
+{
+  "groups": [
+    {
+      "group": "New staff (employees, collaborators, trainees)",
+      "when": "Before they get access to data. The confidentiality undertaking is signed at the session.",
+      "topics": "Patient notice; the 10 rules; professional secrecy; accounts and passwords; what an incident is and whom to tell; what a patient request looks like.",
+      "length": "45 minutes, plus the role part"
+    },
+    {
+      "group": "All staff",
+      "when": "Once a year (December, with the incident drill) and after any incident or major change.",
+      "topics": "The 10 rules refreshed; real incident stories; changes to procedures; the 5-question mini-test.",
+      "length": "45 minutes"
+    },
+    {
+      "group": "Role part: clinical staff (physician, nurse)",
+      "when": "On joining and every year.",
+      "topics": "Secrecy and Art. 9 GDPR; records of patients in care only; talking to relatives; handing over results; approved ways to take clinical images.",
+      "length": "15 to 20 minutes extra"
+    },
+    {
+      "group": "Role part: reception",
+      "when": "On joining and every year.",
+      "topics": "Checking identity; discretion at the desk; appointment texts without medical detail; recognising a request and passing it on within one working day; cameras and the notice.",
+      "length": "15 to 20 minutes extra"
+    },
+    {
+      "group": "Role part: visiting physician",
+      "when": "On starting and every year.",
+      "topics": "His position as an independent controller; his own device and account; own patients only; who tells whom after an incident; requests about his records.",
+      "length": "20 minutes extra"
+    },
+    {
+      "group": "Security lead",
+      "when": "When appointed and every year.",
+      "topics": "Incident and rights procedures; the controls register; ROPA and retention; provider reviews; legal updates.",
+      "length": "30 minutes, with the external adviser"
+    }
+  ],
+  "questionBank": [
+    {
+      "id": "Q1",
+      "question": "A caller asks for their test results over the phone. What do you do?",
+      "answer": "No health data goes to someone whose identity has not been checked. Invite the person to the practice or use the agreed secure channel.",
+      "coveredIn": "Security policy 8; rights procedure 5"
+    },
+    {
+      "id": "Q2",
+      "question": "You have e-mailed one patient's results to another patient by mistake. What do you do?",
+      "answer": "Tell the incident lead at once, within 1 hour. Do not delete the e-mail and do not try to fix it alone. The lead decides the next steps (deletion request to the recipient, assessment, possible notification).",
+      "coveredIn": "Incident procedure"
+    },
+    {
+      "id": "Q3",
+      "question": "A patient says: “Delete my data.” What do you do?",
+      "answer": "It is a request to exercise a right. Write down who, what and when, and pass it to the request handler within one working day. Do not answer on the substance.",
+      "coveredIn": "Rights procedure"
+    },
+    {
+      "id": "Q4",
+      "question": "A colleague asks for your password “to finish quickly”. What do you do?",
+      "answer": "Do not give it. Accounts are individual. The colleague asks the security lead for access. If they insist, tell the security lead.",
+      "coveredIn": "Security policy 4"
+    },
+    {
+      "id": "Q5",
+      "question": "A relative asks for an adult patient's file. What do you do?",
+      "answer": "Give nothing without the patient's written consent or a legal basis. Send the person to the physician in charge.",
+      "coveredIn": "Security policy 8; professional secrecy"
+    },
+    {
+      "id": "Q6",
+      "question": "An e-mail with an invoice attachment arrives from a sender you do not know. What do you do?",
+      "answer": "Do not open it or click any link. Tell the security lead. If you already opened it, say so at once, and do not switch the computer off or reconnect it until you are told.",
+      "coveredIn": "Security policy 5; incident procedure"
+    },
+    {
+      "id": "Q7",
+      "question": "You find a lab printout in the printer tray, and the reception screen shows a patient's record. What do you do?",
+      "answer": "Take the printout to the right file or the locked cabinet and lock the screen. Keep the desk clear of papers at the end of the day. If anything went missing, report it.",
+      "coveredIn": "Security policy 7"
+    },
+    {
+      "id": "Q8",
+      "question": "An engineer wants to work alone in the archive room. What do you do?",
+      "answer": "Visitors and providers are accompanied in areas with personal data. Stay with them, or ask the security lead.",
+      "coveredIn": "Security policy 7"
+    },
+    {
+      "id": "Q9",
+      "question": "A patient asks to see the camera footage of the waiting room. What do you do?",
+      "answer": "Footage is not shown at reception. It is a request for access: write it down and pass it to the request handler within one working day.",
+      "coveredIn": "Rights procedure; CCTV notice"
+    },
+    {
+      "id": "Q10",
+      "question": "Your phone, which has appointment texts, is lost. What do you do?",
+      "answer": "Tell the security lead at once, within 1 hour. Lock or wipe the phone if you can. The lead assesses what was on it.",
+      "coveredIn": "Incident procedure; security policy 5"
+    }
+  ],
+  "testYears": {
+    "1": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ],
+    "2": [
+      "Q6",
+      "Q7",
+      "Q8",
+      "Q9",
+      "Q10"
+    ]
+  },
+  "records": [
+    {
+      "Date": "Tue 19 Jan 2027",
+      "Type of session": "All staff, start of the programme (45 min)",
+      "Led by": "Dr. A with the external adviser",
+      "Length": "45 min",
+      "Participants": "Dr. A, Nurse C, Receptionist D",
+      "Notes (topics; questions that needed clarifying)": "Rules, incident walk-through, requests. Mini-test Q1 to Q5: Q3 (rights request) needed clarifying. Confidentiality undertakings signed.",
+      "Signatures": "On file"
+    },
+    {
+      "Date": "Tue 19 Jan 2027",
+      "Type of session": "Role part: reception",
+      "Led by": "Dr. A",
+      "Length": "15 min",
+      "Participants": "Receptionist D",
+      "Notes (topics; questions that needed clarifying)": "Recognising requests, results by e-mail, visitors.",
+      "Signatures": "On file"
+    },
+    {
+      "Date": "Tue 19 Jan 2027",
+      "Type of session": "Role part: clinical",
+      "Led by": "Dr. A",
+      "Length": "20 min",
+      "Participants": "Nurse C",
+      "Notes (topics; questions that needed clarifying)": "Records of patients in care, relatives, clinical images.",
+      "Signatures": "On file"
+    },
+    {
+      "Date": "Tue 26 Jan 2027",
+      "Type of session": "Visiting physician: start-up and role part",
+      "Led by": "Dr. A",
+      "Length": "40 min",
+      "Participants": "Dr. B",
+      "Notes (topics; questions that needed clarifying)": "Independent controller, device encryption, own patients only. Undertaking signed.",
+      "Signatures": "On file"
+    },
+    {
+      "Date": "Mon 26 Apr 2027",
+      "Type of session": "After an incident: refresher",
+      "Led by": "Dr. A",
+      "Length": "10 min",
+      "Participants": "Dr. A, Nurse C, Receptionist D",
+      "Notes (topics; questions that needed clarifying)": "Lessons from INC-2027-001: password-protected results, address read back.",
+      "Signatures": "On file"
+    },
+    {
+      "Date": "Wed 28 Apr 2027",
+      "Type of session": "After an incident: refresher (visiting physician)",
+      "Led by": "Dr. A",
+      "Length": "10 min",
+      "Participants": "Dr. B",
+      "Notes (topics; questions that needed clarifying)": "Same content, on his next day at the practice.",
+      "Signatures": "On file"
+    }
+  ]
+}

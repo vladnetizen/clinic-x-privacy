@@ -1,0 +1,412 @@
+{
+  "system": [
+    {
+      "Item": "Processing activity",
+      "Description": "PA-07 Video surveillance (CCTV) in the record of processing activities (module 3)"
+    },
+    {
+      "Item": "Cameras",
+      "Description": "Four fixed cameras (C1 to C4), in common areas only. See the camera plan in section 3"
+    },
+    {
+      "Item": "Recording",
+      "Description": "Continuous, to a local recorder (NVR) in a locked cabinet in the admin room"
+    },
+    {
+      "Item": "Sound",
+      "Description": "None. The system does not record audio"
+    },
+    {
+      "Item": "Live viewing",
+      "Description": "None. Nobody watches the images live"
+    },
+    {
+      "Item": "Remote access",
+      "Description": "None. Maintenance is done on site, under supervision"
+    },
+    {
+      "Item": "Analytics",
+      "Description": "None: no facial recognition, no counting, no behaviour analysis"
+    },
+    {
+      "Item": "Retention",
+      "Description": "7 days, then automatic overwriting. Never more than 30 days (retention schedule RET-06)"
+    },
+    {
+      "Item": "Who can view",
+      "Description": "Dr. A only, with an individual account and password"
+    },
+    {
+      "Item": "Provider",
+      "Description": "CCTV Installer (V-05): installation and maintenance; processor only if it can reach recordings; agreement signed December 2026, limited"
+    },
+    {
+      "Item": "Recipients and transfers",
+      "Description": "Authorities on a written request with a legal basis. Nobody else. No transfers: recordings stay on the local recorder."
+    },
+    {
+      "Item": "Controller and owner",
+      "Description": "Clinic X (X Medical S.R.L.); owner Dr. A"
+    }
+  ],
+  "cameras": [
+    {
+      "Camera": "C1 Entrance vestibule",
+      "Covers": "Door and vestibule",
+      "Does not cover": "The street beyond the threshold",
+      "Why here": "Shows who comes in and goes out. The door is open in opening hours and the receptionist is not always at the desk.",
+      "Impact and decision": "Low. Keep."
+    },
+    {
+      "Camera": "C2 Reception",
+      "Covers": "Counter and desk area",
+      "Does not cover": "Screens and papers on the desk. Angle checked on 4 December 2026: nothing legible.",
+      "Why here": "The counter holds equipment and the booking system. Protects staff in case of aggression or disputes.",
+      "Impact and decision": "Medium: the receptionist is in view all day. Keep, with the staff rules in section 6."
+    },
+    {
+      "Camera": "C3 Waiting room",
+      "Covers": "Seating area",
+      "Does not cover": "The toilet door",
+      "Why here": "Patients wait there unobserved while staff are with other patients. Belongings, brochures, equipment.",
+      "Impact and decision": "Medium to high: patients, some ill, and children. Keep, and review first in December 2027."
+    },
+    {
+      "Camera": "C4 Corridor",
+      "Covers": "Corridor to the rooms",
+      "Does not cover": "Interiors of consultation and treatment rooms",
+      "Why here": "Shows who goes towards the rooms and the admin room, where the recorder and records are.",
+      "Impact and decision": "Low to medium. Keep."
+    }
+  ],
+  "purposes": [
+    {
+      "Purpose": "Safety of patients and staff",
+      "Concrete reason": "Patients can be ill, anxious or confused; reception is staffed by one person who often leaves the desk; aggression or a fall in the waiting room could go unseen.",
+      "Evidence": "No serious incident so far. The reason is the layout and the risk, not a past event."
+    },
+    {
+      "Purpose": "Protection of property",
+      "Concrete reason": "Medical equipment, consumables, the recorder and the paper records cabinet are in rooms reached from the corridor.",
+      "Evidence": "Equipment list (module 7, A-01 to A-14). The paper records cabinet is locked (SEC-18)."
+    },
+    {
+      "Purpose": "Investigating incidents",
+      "Concrete reason": "If something goes missing or someone enters a room they should not, the images show who and when, so the practice can report it to the police.",
+      "Evidence": "Not used yet. This is a possible use, and the footage is not browsed without an incident."
+    }
+  ],
+  "alternatives": [
+    {
+      "Alternative": "Staff watching. The receptionist at the desk",
+      "Why it is not enough": "The receptionist leaves the desk to take patients to the rooms and answers the phone. The waiting room is out of sight from the desk."
+    },
+    {
+      "Alternative": "Door buzzer and controlled entry",
+      "Why it is not enough": "It slows entry for unwell patients and for people arriving on foot with children. It does nothing about what happens inside."
+    },
+    {
+      "Alternative": "Locks, locked cabinets, key list",
+      "Why it is not enough": "Already in place (SEC-18). They protect records and equipment but not people, and they do not show who did what."
+    },
+    {
+      "Alternative": "Fewer cameras, or recording only outside opening hours",
+      "Why it is not enough": "The main risks occur in opening hours. The number was kept to four, and none was added for rooms where care is given."
+    }
+  ],
+  "people": [
+    {
+      "Who": "Patients and visitors",
+      "What they expect": "Cameras at the door, yes. In a waiting room of a clinic, some do not expect them, and the images show that someone is at a medical practice.",
+      "Effect on them": "Their image is recorded in the common areas for 7 days. The setting can suggest that they are receiving care.",
+      "How it is reduced": "Common areas only; no audio; 7 days; one viewer; no live view; clear signs at the entrance and in the waiting room; notice at reception and online."
+    },
+    {
+      "Who": "Children and vulnerable patients",
+      "What they expect": "Parents expect discretion about their children.",
+      "Effect on them": "Same as above, with higher sensitivity.",
+      "How it is reduced": "Same. C3 is kept out of line with the toilet door. C3 is the first camera to be reviewed."
+    },
+    {
+      "Who": "Employees",
+      "What they expect": "Staff are in view of C2, C3 and C4 for the whole working day. They are in a dependent relationship and are not asked for consent.",
+      "Effect on them": "Constant presence in view. The risk is use of the images to monitor work.",
+      "How it is reduced": "No live view; not used for performance, attendance or conduct monitoring; employee notice; consultation meeting; Art. 5 conditions (section 7)."
+    },
+    {
+      "Who": "Visitors: providers, couriers, cleaning",
+      "What they expect": "Expect cameras at business premises.",
+      "Effect on them": "Low.",
+      "How it is reduced": "Signs; supervision of providers (SEC-22)."
+    }
+  ],
+  "safeguards": [
+    {
+      "Ref": "G1",
+      "Measure": "Cameras only in common areas; none in rooms where care is given, toilet or staff room",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "Camera plan, section 3"
+    },
+    {
+      "Ref": "G2",
+      "Measure": "No audio, no live viewing, no remote access, no analytics",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "System description, section 2"
+    },
+    {
+      "Ref": "G3",
+      "Measure": "Angles checked so that screens and the toilet door are not in view",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "Checked Fri 4 Dec 2026, with the receptionist present"
+    },
+    {
+      "Ref": "G4",
+      "Measure": "Retention of 7 days, automatic overwriting",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "RET-06"
+    },
+    {
+      "Ref": "G5",
+      "Measure": "Monthly check that the oldest image is not older than the period",
+      "Status": "Partial",
+      "Owner": "Dr. A",
+      "Evidence or link": "First check due 31 Jan 2027; entries in the destruction register"
+    },
+    {
+      "Ref": "G6",
+      "Measure": "Recorder in a locked cabinet in a locked room",
+      "Status": "Partial",
+      "Owner": "Dr. A",
+      "Evidence or link": "SEC-18: rooms are locked; key list still to be made (due 31 Jan 2027)"
+    },
+    {
+      "Ref": "G7",
+      "Measure": "Individual account and password; only Dr. A can view",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "Asset inventory A-10; ROPA PA-07"
+    },
+    {
+      "Ref": "G8",
+      "Measure": "Log of every view and export beyond the monthly check",
+      "Status": "Partial",
+      "Owner": "Dr. A",
+      "Evidence or link": "Form adopted December 2026 (operating sheet). Whether the recorder keeps its own access log is to be confirmed (SEC-32)"
+    },
+    {
+      "Ref": "G9",
+      "Measure": "Installer works under supervision; Art. 28 agreement where it can reach recordings",
+      "Status": "Partial",
+      "Owner": "Dr. A",
+      "Evidence or link": "V-05; SEC-22, SEC-27. Agreement signed December 2026, limited; review planned 16 Mar 2027"
+    },
+    {
+      "Ref": "G10",
+      "Measure": "Signs at the entrance and in the waiting room; notice at reception and online",
+      "Status": "Partial",
+      "Owner": "Dr. A",
+      "Evidence or link": "Signs and notice are in place. The sign says \"safety of patients and staff\"; the notice also names property. Align at the next reprint, by 31 Jan 2027"
+    },
+    {
+      "Ref": "G11",
+      "Measure": "Employees informed in writing and consulted",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "Consultation record (Annex A); employee notice (module 11)"
+    },
+    {
+      "Ref": "G12",
+      "Measure": "Footage requests handled within one month, preserved if still on the recorder",
+      "Status": "Partial",
+      "Owner": "Dr. A",
+      "Evidence or link": "Operating sheet, section 2; reception trained on this from 19 Jan 2027 (role part, module 8)"
+    },
+    {
+      "Ref": "G13",
+      "Measure": "No use of images for performance, attendance or conduct monitoring",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "Rule in this LIA and in the employee notice"
+    },
+    {
+      "Ref": "G14",
+      "Measure": "Review of this assessment each year and on any change",
+      "Status": "Yes",
+      "Owner": "Dr. A",
+      "Evidence or link": "Next review December 2027"
+    }
+  ],
+  "art5": [
+    {
+      "Ref": "(a)",
+      "Condition": "The employer's legitimate interests are well founded and prevail over the rights and interests of the employees.",
+      "How met": "Steps 1 to 3 of this LIA. The employer's interest is moderate; the impact on staff is reduced by the rules in section 6.",
+      "Status": "Met"
+    },
+    {
+      "Ref": "(b)",
+      "Condition": "The employer has informed employees beforehand, completely and explicitly.",
+      "How met": "Employee notice (module 11), handed out at the meeting of Thu 3 Dec 2026. Cameras were already running; the information was therefore not prior to installation, only to the programme.",
+      "Status": "Partly"
+    },
+    {
+      "Ref": "(c)",
+      "Condition": "The employer has consulted the union or, where relevant, the employees' representatives before introducing the monitoring.",
+      "How met": "There is no union and no elected representative: the practice has two employees. Dr. A consulted them directly (Annex A). The cameras were installed before the programme, so the consultation came late, and the record says so.",
+      "Status": "Partly"
+    },
+    {
+      "Ref": "(d)",
+      "Condition": "Other, less intrusive ways of reaching the purpose have not proved effective beforehand.",
+      "How met": "Step 2 of this LIA. Alternatives were reasoned through, not trialled.",
+      "Status": "Partly"
+    },
+    {
+      "Ref": "(e)",
+      "Condition": "Storage is proportionate to the purpose and not longer than 30 days, except where the law expressly provides or in well-justified cases.",
+      "How met": "7 days; absolute maximum 30 days (RET-06).",
+      "Status": "Met"
+    }
+  ],
+  "dpiaCriteria": [
+    {
+      "Criterion (WP248)": "Evaluation or scoring",
+      "Met?": "No",
+      "Reason": "Images are not used to rate anyone."
+    },
+    {
+      "Criterion (WP248)": "Automated decisions with legal or similar effect",
+      "Met?": "No",
+      "Reason": "None."
+    },
+    {
+      "Criterion (WP248)": "Systematic monitoring",
+      "Met?": "Yes",
+      "Reason": "Cameras record continuously in common areas."
+    },
+    {
+      "Criterion (WP248)": "Sensitive or highly personal data",
+      "Met?": "Partly",
+      "Reason": "The practice does not aim to record health data, but the setting (a medical practice) can suggest it."
+    },
+    {
+      "Criterion (WP248)": "Large scale",
+      "Met?": "No",
+      "Reason": "One site, four cameras, a small practice, 7-day buffer."
+    },
+    {
+      "Criterion (WP248)": "Matching or combining datasets",
+      "Met?": "No",
+      "Reason": "Images are not combined with other data."
+    },
+    {
+      "Criterion (WP248)": "Vulnerable data subjects",
+      "Met?": "Yes",
+      "Reason": "Patients, children, and employees in a dependent relationship."
+    },
+    {
+      "Criterion (WP248)": "Innovative technology",
+      "Met?": "No",
+      "Reason": "Standard fixed cameras; no facial recognition or analytics."
+    },
+    {
+      "Criterion (WP248)": "Prevents people from exercising a right or using a service",
+      "Met?": "No",
+      "Reason": "Cameras do not condition access to care."
+    }
+  ],
+  "liaRegister": [
+    {
+      "Ref": "LIA-01",
+      "Processing": "Video surveillance (CCTV)",
+      "ROPA": "PA-07",
+      "Interest relied on": "Safety of people; protection of property; investigating incidents",
+      "LIA status": "Done",
+      "Result": "Interest prevails on conditions; DPIA not required",
+      "Date": "7 Dec 2026",
+      "Next review": "Dec 2027",
+      "Owner": "Dr. A",
+      "Notes": "Art. 5 conditions partly met (timing, proof)"
+    },
+    {
+      "Ref": "LIA-02",
+      "Processing": "Website: security logs and analytics",
+      "ROPA": "PA-13",
+      "Interest relied on": "Keeping the website secure; understanding visits",
+      "LIA status": "Planned",
+      "Result": "",
+      "Date": "Due 31 Mar 2027",
+      "Next review": "",
+      "Owner": "Dr. A",
+      "Notes": "Analytics are on consent (cookies), not legitimate interest. A short LIA is needed for server security logs once the hosting and analytics providers are reviewed"
+    }
+  ],
+  "requestTypes": [
+    {
+      "Who asks": "A person asks to see their own image (access, Art. 15)",
+      "What the practice does": "Ask for date, time slot and area. If the images no longer exist, say so. If they exist, preserve the extract at once, then offer viewing under supervision or a copy with other people masked.",
+      "Who decides": "Dr. A",
+      "Template": "T14"
+    },
+    {
+      "Who asks": "A person objects to the cameras (Art. 21)",
+      "What the practice does": "Record the grounds. Assess whether the interest overrides. Reply with reasons; if it does not override, stop processing for that person.",
+      "Who decides": "Dr. A",
+      "Template": "T9"
+    },
+    {
+      "Who asks": "The police or another authority asks",
+      "What the practice does": "Only on a written request that states the legal basis. Check the request. Export the smallest slot needed. Hand it over with a receipt. Log it.",
+      "Who decides": "Dr. A, with the external adviser if unsure",
+      "Template": "No template"
+    },
+    {
+      "Who asks": "A victim of an incident asks for a copy (for example, a missing bag)",
+      "What the practice does": "Do not hand over a copy: it shows other people. Dr. A may look at the images, then advise the person to report to the police. The images go to the police on their written request.",
+      "Who decides": "Dr. A",
+      "Template": "No template"
+    },
+    {
+      "Who asks": "Dr. A wants to look at the footage",
+      "What the practice does": "Only for the stated purposes and only for an incident. Note date, slot, reason and result in the log. No browsing. Never for checking working time, speed or conduct.",
+      "Who decides": "Dr. A",
+      "Template": "Log"
+    }
+  ],
+  "accessLog": [
+    {
+      "Log no.": "LOG-2027-001",
+      "Date": "Wed 19 May 2027",
+      "Action": "View",
+      "Cameras and period": "C1 and C3, Tue 18 May 2027, 10:00 to 10:40",
+      "Reason": "A patient reported that her bag was taken from a waiting room chair on 18 May; the report reached Dr. A the same day.",
+      "By": "Dr. A",
+      "Result or copy": "A visitor is seen leaving with a similar bag. No copy made.",
+      "Extract deleted": "Not applicable"
+    },
+    {
+      "Log no.": "LOG-2027-002",
+      "Date": "Fri 21 May 2027",
+      "Action": "Export",
+      "Cameras and period": "C1 and C3, Tue 18 May 2027, 10:10 to 10:30",
+      "Reason": "The police asked in writing, giving the legal basis, after the patient filed a report.",
+      "By": "Dr. A",
+      "Result or copy": "Copy handed to the police in person on Mon 24 May 2027, with a receipt. No copy given to the patient.",
+      "Extract deleted": "Tue 22 Jun 2027, after the police confirmed the case was closed"
+    },
+    {
+      "Log no.": "LOG-2027-003",
+      "Date": "Mon 12 Jul 2027",
+      "Action": "Search, no view",
+      "Cameras and period": "Recorder, Mon 28 Jun 2027",
+      "Reason": "Access request REQ-2027-003 (module 5).",
+      "By": "Dr. A",
+      "Result or copy": "Oldest image on the recorder is Mon 5 Jul 2027. Nothing from 28 Jun. Reply T14, variant A.",
+      "Extract deleted": "Not applicable"
+    }
+  ]
+}

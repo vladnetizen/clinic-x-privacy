@@ -1,0 +1,521 @@
+{
+  "rules": [
+    "Score by evidence, not by intention. If you cannot show it in two minutes (a document, a register entry, a dated record), it is not a Yes.",
+    "Partly means it exists but is incomplete, untested, undated, or not yet used in practice.",
+    "Not applicable is for questions that do not fit your practice (for example, you have no cameras and no employees). Leave it out of the total.",
+    "A score is not compliance. It shows where the paper and the practice are far apart. Compliance depends on your facts and your national law."
+  ],
+  "points": {
+    "Yes": 2,
+    "Partly": 1,
+    "No": 0
+  },
+  "bands": [
+    [
+      "Below 40%",
+      "Most of the programme is missing or only an idea",
+      "Modules 1, 3, 5 and 6 first: know what you process, answer requests, handle incidents"
+    ],
+    [
+      "40% to 70%",
+      "Documents exist, but much is untested or incomplete",
+      "Practise what you have: training (8), drills (6), provider reviews (9), restore tests (7)"
+    ],
+    [
+      "Above 70%",
+      "Most things exist and have been used",
+      "Close the open items, re-score each year, and look at DPIAs (12) and cameras (10)"
+    ]
+  ],
+  "modules": [
+    {
+      "module": 1,
+      "title": "Know your practice",
+      "link": "../01-clinic-profile/",
+      "questions": [
+        {
+          "id": "1.1",
+          "question": "Is there a one-page description of the practice (size, systems, people, roles, providers) that is kept up to date?",
+          "evidence": "The description, with a date or version"
+        },
+        {
+          "id": "1.2",
+          "question": "Does it say who the controller is, who the privacy contact is, and who covers when the contact is away?",
+          "evidence": "Named roles and a deputy"
+        },
+        {
+          "id": "1.3",
+          "question": "Are fixed numbers (deadlines, retention periods, owners) set in one place, so that documents do not contradict each other?",
+          "evidence": "A single source, and a rule for changing it"
+        }
+      ]
+    },
+    {
+      "module": 2,
+      "title": "Patient notice",
+      "link": "../02-patient-notice/",
+      "questions": [
+        {
+          "id": "2.1",
+          "question": "Do patients receive a privacy notice at or before first contact (at the desk and on the website)?",
+          "evidence": "The notice; where it is shown"
+        },
+        {
+          "id": "2.2",
+          "question": "Does it state the real purposes, legal bases, recipients, retention criteria and rights, matching your record of processing?",
+          "evidence": "A line-by-line match with the record"
+        },
+        {
+          "id": "2.3",
+          "question": "Does it have a version history and a person who updates it?",
+          "evidence": "Version table; owner"
+        }
+      ]
+    },
+    {
+      "module": 3,
+      "title": "Record of processing (ROPA)",
+      "link": "../03-ropa/",
+      "questions": [
+        {
+          "id": "3.1",
+          "question": "Is there a written record of every processing activity, including those with health data (Art. 30)?",
+          "evidence": "The record"
+        },
+        {
+          "id": "3.2",
+          "question": "For each activity: purpose, legal basis, Art. 9 condition, recipients, retention and security are filled in?",
+          "evidence": "Complete entries, open items marked"
+        },
+        {
+          "id": "3.3",
+          "question": "Is the record reviewed at least yearly and whenever a tool or provider changes?",
+          "evidence": "Review dates in the version history"
+        }
+      ]
+    },
+    {
+      "module": 4,
+      "title": "Retention schedule",
+      "link": "../04-retention/",
+      "questions": [
+        {
+          "id": "4.1",
+          "question": "Does every kind of record have a stated retention period and a start date?",
+          "evidence": "The schedule"
+        },
+        {
+          "id": "4.2",
+          "question": "Where no law sets a period, is the criterion written down and the period marked as your own choice?",
+          "evidence": "Criterion and source column"
+        },
+        {
+          "id": "4.3",
+          "question": "Is deletion carried out and recorded (a destruction register, spot checks)?",
+          "evidence": "Register entries with dates"
+        }
+      ]
+    },
+    {
+      "module": 5,
+      "title": "Data subject rights",
+      "link": "../05-data-subject-rights/",
+      "questions": [
+        {
+          "id": "5.1",
+          "question": "Does reception know what to do when someone asks to see, correct or delete data, and pass it on within a day?",
+          "evidence": "A staff rule; ask someone"
+        },
+        {
+          "id": "5.2",
+          "question": "Is there a request register with dates and a check of the one-month deadline?",
+          "evidence": "The register"
+        },
+        {
+          "id": "5.3",
+          "question": "Are there reply templates, including identity checks and reasons for refusing?",
+          "evidence": "The templates"
+        }
+      ]
+    },
+    {
+      "module": 6,
+      "title": "Security incidents",
+      "link": "../06-incidents/",
+      "questions": [
+        {
+          "id": "6.1",
+          "question": "Can staff say whom to tell about a mistake or a loss, and how fast?",
+          "evidence": "A staff rule with a time limit; ask someone"
+        },
+        {
+          "id": "6.2",
+          "question": "Is there a breach register that records every incident, including those not notified, with the reasoning?",
+          "evidence": "The register"
+        },
+        {
+          "id": "6.3",
+          "question": "Has the procedure been practised in a drill, and reviewed after a real incident?",
+          "evidence": "Drill and review records"
+        }
+      ]
+    },
+    {
+      "module": 7,
+      "title": "Security policy",
+      "link": "../07-security-policy/",
+      "questions": [
+        {
+          "id": "7.1",
+          "question": "Are there written rules (accounts, passwords, updates, backups, devices, paper) that fit the practice?",
+          "evidence": "The policy and the staff pack"
+        },
+        {
+          "id": "7.2",
+          "question": "Is there a list of controls, scored honestly, with an owner and a date for each gap?",
+          "evidence": "The controls register"
+        },
+        {
+          "id": "7.3",
+          "question": "Has a restore from backup been tested, and have access rights been reviewed?",
+          "evidence": "Test result and review record"
+        }
+      ]
+    },
+    {
+      "module": 8,
+      "title": "Staff training",
+      "link": "../08-training/",
+      "questions": [
+        {
+          "id": "8.1",
+          "question": "Is everyone with access trained before they get it, with a signed record?",
+          "evidence": "The training record"
+        },
+        {
+          "id": "8.2",
+          "question": "Do staff and collaborators sign a confidentiality undertaking?",
+          "evidence": "Signed undertakings"
+        },
+        {
+          "id": "8.3",
+          "question": "Is there a yearly refresher, and a short one after each incident?",
+          "evidence": "Calendar and record"
+        }
+      ]
+    },
+    {
+      "module": 9,
+      "title": "Providers and Art. 28",
+      "link": "../09-providers/",
+      "questions": [
+        {
+          "id": "9.1",
+          "question": "Is there a list of providers, with each one's role (processor or controller) and the data it reaches?",
+          "evidence": "The providers register"
+        },
+        {
+          "id": "9.2",
+          "question": "Is there an Art. 28 agreement with each processor, checked against the Art. 28(3) list?",
+          "evidence": "Signed agreements and a checklist"
+        },
+        {
+          "id": "9.3",
+          "question": "Has each provider been reviewed (security, location, sub-processors, deletion), with dates?",
+          "evidence": "Review notes"
+        }
+      ]
+    },
+    {
+      "module": 10,
+      "title": "CCTV and legitimate interest",
+      "link": "../10-cctv-lia/",
+      "questions": [
+        {
+          "id": "10.1",
+          "question": "If you have cameras: is there a written assessment, a camera plan, a short retention period and no cameras where care is given?",
+          "evidence": "The assessment and the camera plan"
+        },
+        {
+          "id": "10.2",
+          "question": "Are there signs and a notice, a procedure for requests for footage, and an access log?",
+          "evidence": "Signs, procedure, log"
+        },
+        {
+          "id": "10.3",
+          "question": "If you have employees: were they informed and consulted as national law requires, and is it recorded?",
+          "evidence": "Consultation record"
+        }
+      ]
+    },
+    {
+      "module": 11,
+      "title": "Employee notice",
+      "link": "../11-employee-notice/",
+      "questions": [
+        {
+          "id": "11.1",
+          "question": "Do employees and collaborators receive a notice about their own data, and is receipt acknowledged in writing?",
+          "evidence": "Notice and acknowledgements"
+        },
+        {
+          "id": "11.2",
+          "question": "Does it give the basis for each purpose without relying on consent, and the retention?",
+          "evidence": "The purposes table"
+        },
+        {
+          "id": "11.3",
+          "question": "Is there a joiner and leaver checklist that links accounts, training and retention?",
+          "evidence": "The checklist and its use"
+        }
+      ]
+    },
+    {
+      "module": 12,
+      "title": "DPIA process",
+      "link": "../12-dpia/",
+      "questions": [
+        {
+          "id": "12.1",
+          "question": "Is there a screening step before any new tool, provider or recording of people?",
+          "evidence": "The procedure and form"
+        },
+        {
+          "id": "12.2",
+          "question": "Are screenings recorded, including the ones that end in \"not required\", with reasons?",
+          "evidence": "The register"
+        },
+        {
+          "id": "12.3",
+          "question": "When a DPIA is required: are risks to people scored, conditions given owners and dates, and other documents updated?",
+          "evidence": "A DPIA and its conditions"
+        }
+      ]
+    }
+  ],
+  "clinicXBaseline": {
+    "date": "2026-12-07",
+    "total": 47,
+    "maximum": 70,
+    "perModule": [
+      {
+        "n": 1,
+        "title": "Know your practice",
+        "got": 6,
+        "max": 6
+      },
+      {
+        "n": 2,
+        "title": "Patient notice",
+        "got": 6,
+        "max": 6
+      },
+      {
+        "n": 3,
+        "title": "Record of processing (ROPA)",
+        "got": 4,
+        "max": 6
+      },
+      {
+        "n": 4,
+        "title": "Retention schedule",
+        "got": 4,
+        "max": 6
+      },
+      {
+        "n": 5,
+        "title": "Data subject rights",
+        "got": 5,
+        "max": 6
+      },
+      {
+        "n": 6,
+        "title": "Security incidents",
+        "got": 3,
+        "max": 6
+      },
+      {
+        "n": 7,
+        "title": "Security policy",
+        "got": 4,
+        "max": 6
+      },
+      {
+        "n": 8,
+        "title": "Staff training",
+        "got": 0,
+        "max": 6
+      },
+      {
+        "n": 9,
+        "title": "Providers and Art. 28",
+        "got": 3,
+        "max": 6
+      },
+      {
+        "n": 10,
+        "title": "CCTV and legitimate interest",
+        "got": 4,
+        "max": 6
+      },
+      {
+        "n": 11,
+        "title": "Employee notice",
+        "got": 4,
+        "max": 6
+      },
+      {
+        "n": 12,
+        "title": "DPIA process",
+        "got": 4,
+        "max": 4
+      }
+    ],
+    "answers": {
+      "1.1": {
+        "answer": "Yes",
+        "note": "Clinic Profile v1.0, single source."
+      },
+      "1.2": {
+        "answer": "Yes",
+        "note": "Dr. A; deputy Nurse C; external adviser."
+      },
+      "1.3": {
+        "answer": "Yes",
+        "note": "Parameters in the profile; the profile wins."
+      },
+      "2.1": {
+        "answer": "Yes",
+        "note": "Notice v2.0 from 1 Dec 2026, at the desk and online."
+      },
+      "2.2": {
+        "answer": "Yes",
+        "note": "Matches the record of processing."
+      },
+      "2.3": {
+        "answer": "Yes",
+        "note": "Version table; owner Dr. A."
+      },
+      "3.1": {
+        "answer": "Yes",
+        "note": "13 activities in ROPA v1.0."
+      },
+      "3.2": {
+        "answer": "Partly",
+        "note": "Some Art. 9 conditions and transfers are marked to be confirmed."
+      },
+      "3.3": {
+        "answer": "Partly",
+        "note": "Review scheduled for December 2027; not yet done."
+      },
+      "4.1": {
+        "answer": "Partly",
+        "note": "Periods set, but the medical record periods are unconfirmed."
+      },
+      "4.2": {
+        "answer": "Yes",
+        "note": "Criterion and source column for every row."
+      },
+      "4.3": {
+        "answer": "Partly",
+        "note": "Destruction register adopted; first deletion planned for January 2027."
+      },
+      "5.1": {
+        "answer": "Partly",
+        "note": "The rule exists; reception is trained from 19 Jan 2027."
+      },
+      "5.2": {
+        "answer": "Yes",
+        "note": "Register and deadline check adopted."
+      },
+      "5.3": {
+        "answer": "Yes",
+        "note": "Templates T0 to T14."
+      },
+      "6.1": {
+        "answer": "Partly",
+        "note": "One-hour rule adopted; briefing on 19 Jan 2027."
+      },
+      "6.2": {
+        "answer": "Yes",
+        "note": "Breach register adopted, with the reasoning column."
+      },
+      "6.3": {
+        "answer": "No",
+        "note": "No drill held yet; first one in December 2027."
+      },
+      "7.1": {
+        "answer": "Yes",
+        "note": "Policy and staff pack v1.0."
+      },
+      "7.2": {
+        "answer": "Yes",
+        "note": "38 controls, scored, owners and dates (11 Yes, 21 Partial, 6 No)."
+      },
+      "7.3": {
+        "answer": "No",
+        "note": "Restore never tested (SEC-16); first access review June 2027."
+      },
+      "8.1": {
+        "answer": "No",
+        "note": "First session on 19 Jan 2027."
+      },
+      "8.2": {
+        "answer": "No",
+        "note": "Undertakings signed on 19 Jan 2027."
+      },
+      "8.3": {
+        "answer": "No",
+        "note": "First annual session in December 2027."
+      },
+      "9.1": {
+        "answer": "Yes",
+        "note": "Providers register, 12 providers."
+      },
+      "9.2": {
+        "answer": "Partly",
+        "note": "Signed with most; CCTV installer limited; e-mail on standard terms."
+      },
+      "9.3": {
+        "answer": "No",
+        "note": "Reviews planned from 12 Jan 2027."
+      },
+      "10.1": {
+        "answer": "Yes",
+        "note": "Assessment, camera plan, 7 days, no cameras in care rooms."
+      },
+      "10.2": {
+        "answer": "Partly",
+        "note": "Signs in place, wording to align; log form adopted, not yet used."
+      },
+      "10.3": {
+        "answer": "Partly",
+        "note": "Consulted on 3 Dec 2026, after the cameras were installed."
+      },
+      "11.1": {
+        "answer": "Partly",
+        "note": "Nurse C and Receptionist D on 3 Dec 2026; Dr. B on 26 Jan 2027."
+      },
+      "11.2": {
+        "answer": "Yes",
+        "note": "Basis for each purpose; no consent."
+      },
+      "11.3": {
+        "answer": "Partly",
+        "note": "Checklist adopted, not yet used."
+      },
+      "12.1": {
+        "answer": "Yes",
+        "note": "Procedure adopted 7 Dec 2026."
+      },
+      "12.2": {
+        "answer": "Yes",
+        "note": "SCR-2026-01 recorded, with the reason."
+      },
+      "12.3": {
+        "answer": "Not applicable",
+        "note": "No DPIA required so far."
+      }
+    }
+  }
+}

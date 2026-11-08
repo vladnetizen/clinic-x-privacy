@@ -1,0 +1,650 @@
+{
+  "identity": [
+    {
+      "Field": "Brand",
+      "Value": "Clinic X (Romanian: Cabinet Medical X)"
+    },
+    {
+      "Field": "Legal entity",
+      "Value": "X Medical S.R.L."
+    },
+    {
+      "Field": "Controller",
+      "Value": "X Medical S.R.L., represented by Dr. A"
+    },
+    {
+      "Field": "Fiscal code (CUI)",
+      "Value": "RO 00000000 (invalid on purpose)"
+    },
+    {
+      "Field": "Trade register",
+      "Value": "J00/0000/2018 (invalid on purpose)"
+    },
+    {
+      "Field": "Address",
+      "Value": "Str. X nr. 0, Town X, Romania (fictional)"
+    },
+    {
+      "Field": "Phone",
+      "Value": "+40 700 000 000 (placeholder)"
+    },
+    {
+      "Field": "General e-mail",
+      "Value": "contact@clinic-x.example"
+    },
+    {
+      "Field": "Privacy e-mail",
+      "Value": "privacy@clinic-x.example"
+    },
+    {
+      "Field": "Website",
+      "Value": "www.clinic-x.example"
+    },
+    {
+      "Field": "Founded",
+      "Value": "2018"
+    },
+    {
+      "Field": "Type",
+      "Value": "Private outpatient practice, one site, ground-floor premises (rented)"
+    },
+    {
+      "Field": "Services",
+      "Value": "Family and internal medicine consultations, ECG, abdominal ultrasound, blood sampling (samples go to a partner lab), prescriptions and referrals"
+    },
+    {
+      "Field": "Health insurance",
+      "Value": "Contract with the county health insurance fund for part of the consultations; the rest is private-pay"
+    },
+    {
+      "Field": "Opening hours",
+      "Value": "Mon–Fri 08:00–18:00, Sat 09:00–13:00"
+    },
+    {
+      "Field": "DPO",
+      "Value": "Not appointed. Not a public authority; core activities are not large-scale processing (recital 91: an individual physician is not large-scale). Reasoning recorded in the ROPA notes and revisited yearly."
+    },
+    {
+      "Field": "Privacy contact",
+      "Value": "Dr. A (owner-physician), supported by an external privacy adviser"
+    }
+  ],
+  "people": [
+    {
+      "ID": "S-01",
+      "Label (fictional)": "Dr. A",
+      "Role": "Owner-physician, family medicine; legal representative; privacy contact; incident lead",
+      "Employment": "Owner",
+      "Data access": "Full clinical + admin + CCTV"
+    },
+    {
+      "ID": "S-02",
+      "Label (fictional)": "Dr. B",
+      "Role": "Visiting physician (ultrasound/cardiology), 2 days a week",
+      "Employment": "Independent collaborator (own practice)",
+      "Data access": "Clinical records of his own patients"
+    },
+    {
+      "ID": "S-03",
+      "Label (fictional)": "Nurse C",
+      "Role": "Practice nurse (blood sampling, ECG, triage)",
+      "Employment": "Employee",
+      "Data access": "Clinical (limited), appointments"
+    },
+    {
+      "ID": "S-04",
+      "Label (fictional)": "Receptionist D",
+      "Role": "Receptionist / administrator",
+      "Employment": "Employee",
+      "Data access": "Appointments, contact and billing data; no clinical notes"
+    },
+    {
+      "ID": "S-05",
+      "Label (fictional)": "Accountant E",
+      "Role": "Accountant",
+      "Employment": "External (Accounting Firm)",
+      "Data access": "Invoices, payroll data; no clinical data"
+    },
+    {
+      "ID": "S-06",
+      "Label (fictional)": "(unnamed) IT support technician",
+      "Role": "Remote support, ~4 hours a month",
+      "Employment": "External (IT Support Provider)",
+      "Data access": "Admin access to devices; no routine access to clinical records"
+    },
+    {
+      "ID": "S-07",
+      "Label (fictional)": "(unnamed)",
+      "Role": "Cleaning (evenings)",
+      "Employment": "External, small contractor",
+      "Data access": "Physical access to premises only"
+    }
+  ],
+  "patients": [
+    {
+      "Item": "Patient records on file",
+      "Value": "~2,800"
+    },
+    {
+      "Item": "Visits per month",
+      "Value": "~350"
+    },
+    {
+      "Item": "New patients per month",
+      "Value": "~15"
+    },
+    {
+      "Item": "Share of patients over 65",
+      "Value": "roughly one third"
+    },
+    {
+      "Item": "Minors",
+      "Value": "a minority; the parent/guardian is the contact"
+    },
+    {
+      "Item": "Special-category data",
+      "Value": "Health data in virtually every record; occasional vaccination and chronic-condition data"
+    },
+    {
+      "Item": "CNP (national ID number)",
+      "Value": "Collected for insured patients and invoicing, handled under the Romanian CNP safeguards"
+    },
+    {
+      "Item": "Data subject requests per year",
+      "Value": "~3 (mostly copies of records); target response ≤ 30 days"
+    },
+    {
+      "Item": "Newsletter / promo subscribers",
+      "Value": "~120, consent-based"
+    },
+    {
+      "Item": "Incidents so far",
+      "Value": "1 near miss (misdirected e-mail, caught before sending the attachment) used in the incident drill"
+    }
+  ],
+  "cameras": [
+    {
+      "Camera": "C1",
+      "Location": "Entrance vestibule",
+      "Covers": "Door and vestibule",
+      "Not covered": "Street beyond the threshold"
+    },
+    {
+      "Camera": "C2",
+      "Location": "Reception",
+      "Covers": "Counter and desk area",
+      "Not covered": "Screens (angle checked)"
+    },
+    {
+      "Camera": "C3",
+      "Location": "Waiting room",
+      "Covers": "Seating area",
+      "Not covered": "Toilet door"
+    },
+    {
+      "Camera": "C4",
+      "Location": "Corridor",
+      "Covers": "Corridor to the rooms",
+      "Not covered": "Interiors of consultation and treatment rooms"
+    }
+  ],
+  "assets": [
+    {
+      "ID": "A-01",
+      "Asset": "Practice Software (cloud) — practice management and electronic records",
+      "What it holds": "Patient files, appointments, billing, imaging attachments",
+      "Hosting / location": "Vendor cloud, EU data centre",
+      "Owner": "S-01"
+    },
+    {
+      "ID": "A-02",
+      "Asset": "Reception PC",
+      "What it holds": "Browser access to A-01; scanned documents (temporary)",
+      "Hosting / location": "Reception",
+      "Owner": "S-04"
+    },
+    {
+      "ID": "A-03",
+      "Asset": "Doctor laptop (S-01)",
+      "What it holds": "Browser access to A-01; admin files",
+      "Hosting / location": "Encrypted disk",
+      "Owner": "S-01"
+    },
+    {
+      "ID": "A-04",
+      "Asset": "Visiting-physician laptop (S-02)",
+      "What it holds": "His own tools; accesses A-01 with his own account",
+      "Hosting / location": "His device",
+      "Owner": "S-02"
+    },
+    {
+      "ID": "A-05",
+      "Asset": "Ultrasound unit",
+      "What it holds": "Images, short-term local storage, exported to A-01",
+      "Hosting / location": "Treatment room",
+      "Owner": "S-02"
+    },
+    {
+      "ID": "A-06",
+      "Asset": "ECG unit",
+      "What it holds": "Traces, exported to A-01",
+      "Hosting / location": "Treatment room",
+      "Owner": "S-03"
+    },
+    {
+      "ID": "A-07",
+      "Asset": "Business e-mail (shared mailbox + personal boxes)",
+      "What it holds": "Appointment requests, lab results, referrals",
+      "Hosting / location": "International cloud suite, EU region",
+      "Owner": "S-01"
+    },
+    {
+      "ID": "A-08",
+      "Asset": "SMS/e-mail reminder service",
+      "What it holds": "Names, phone numbers, appointment times",
+      "Hosting / location": "Vendor cloud",
+      "Owner": "S-04"
+    },
+    {
+      "ID": "A-09",
+      "Asset": "Website with contact form and analytics",
+      "What it holds": "Form submissions, cookie data",
+      "Hosting / location": "Hosting provider, EU",
+      "Owner": "S-01"
+    },
+    {
+      "ID": "A-10",
+      "Asset": "CCTV system (4 cameras + NVR)",
+      "What it holds": "Video, 7-day buffer",
+      "Hosting / location": "Locked cabinet, admin room",
+      "Owner": "S-01"
+    },
+    {
+      "ID": "A-11",
+      "Asset": "Paper records",
+      "What it holds": "Consent/acknowledgement forms, lab printouts, HR files",
+      "Hosting / location": "Locked cabinet, admin room",
+      "Owner": "S-04 / S-01"
+    },
+    {
+      "ID": "A-12",
+      "Asset": "Admin backup disk",
+      "What it holds": "Encrypted copy of non-clinical files (HR, contracts)",
+      "Hosting / location": "Locked cabinet",
+      "Owner": "S-01"
+    },
+    {
+      "ID": "A-13",
+      "Asset": "Wi-Fi",
+      "What it holds": "Staff network and separate guest network",
+      "Hosting / location": "Router, admin room",
+      "Owner": "S-06"
+    },
+    {
+      "ID": "A-14",
+      "Asset": "Staff mobile phones",
+      "What it holds": "Calls, texts to patients only for appointment logistics; no clinical data on messaging apps",
+      "Hosting / location": "Personal/company phones",
+      "Owner": "Each user"
+    }
+  ],
+  "vendors": [
+    {
+      "ID": "V-01",
+      "Vendor": "Practice Software Provider",
+      "Service": "A-01 practice management / records",
+      "Role": "Processor",
+      "Art. 28 agreement": "Yes, signed (worked example)",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-02",
+      "Vendor": "Messaging Provider",
+      "Service": "A-08 reminders by SMS/e-mail",
+      "Role": "Processor",
+      "Art. 28 agreement": "Yes",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-03",
+      "Vendor": "IT Support Provider",
+      "Service": "Remote IT support",
+      "Role": "Processor (can access systems)",
+      "Art. 28 agreement": "Yes",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-04",
+      "Vendor": "Accounting Firm",
+      "Service": "Bookkeeping and payroll",
+      "Role": "Processor for payroll; independent role for statutory accounting duties (note in ROPA)",
+      "Art. 28 agreement": "Yes",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-05",
+      "Vendor": "CCTV Installer",
+      "Service": "CCTV installation and maintenance",
+      "Role": "Processor only if it can access recordings",
+      "Art. 28 agreement": "Yes (limited)",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-06",
+      "Vendor": "E-mail Provider (large cloud suite)",
+      "Service": "A-07 business e-mail",
+      "Role": "Processor",
+      "Art. 28 agreement": "Provider's standard DPA reviewed",
+      "Location": "EU region"
+    },
+    {
+      "ID": "V-07",
+      "Vendor": "Hosting Provider",
+      "Service": "A-09 website hosting",
+      "Role": "Processor",
+      "Art. 28 agreement": "Yes",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-08",
+      "Vendor": "Partner Laboratory",
+      "Service": "Partner laboratory; receives samples and sends results",
+      "Role": "Independent controller",
+      "Art. 28 agreement": "Not applicable (documented data-sharing note)",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-09",
+      "Vendor": "Dr. B",
+      "Service": "Visiting physician",
+      "Role": "Independent controller",
+      "Art. 28 agreement": "Premises/system arrangement",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-10",
+      "Vendor": "Shredding Provider",
+      "Service": "Confidential paper destruction",
+      "Role": "Processor",
+      "Art. 28 agreement": "Yes",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-11",
+      "Vendor": "Card Payment Provider",
+      "Service": "Card terminal and payment processing",
+      "Role": "Independent controller",
+      "Art. 28 agreement": "Not applicable",
+      "Location": "EU"
+    },
+    {
+      "ID": "V-12",
+      "Vendor": "Occupational Health Provider",
+      "Service": "Medical checks for the clinic's own staff",
+      "Role": "Independent controller",
+      "Art. 28 agreement": "Not applicable",
+      "Location": "EU"
+    },
+    {
+      "ID": "—",
+      "Vendor": "County health insurance fund and other authorities",
+      "Service": "Reporting, inspections",
+      "Role": "Independent controllers (legal obligation)",
+      "Art. 28 agreement": "Not applicable",
+      "Location": "RO"
+    },
+    {
+      "ID": "—",
+      "Vendor": "Professional liability insurer",
+      "Service": "Claims, on request",
+      "Role": "Independent controller",
+      "Art. 28 agreement": "Not applicable",
+      "Location": "EU"
+    }
+  ],
+  "activities": [
+    {
+      "Code": "PA-01",
+      "Activity": "Appointments",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-01, A-02, phone, A-07",
+      "Retention code": "RET-07"
+    },
+    {
+      "Code": "PA-02",
+      "Activity": "Medical care and records",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-01, A-05, A-06, A-11",
+      "Retention code": "RET-01, RET-02"
+    },
+    {
+      "Code": "PA-03",
+      "Activity": "Reporting to the health insurance fund and authorities",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-01",
+      "Retention code": "RET-01, RET-05"
+    },
+    {
+      "Code": "PA-04",
+      "Activity": "Invoicing and accounting",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-01, V-04",
+      "Retention code": "RET-05"
+    },
+    {
+      "Code": "PA-05",
+      "Activity": "Laboratory and partner referrals and results",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-07, A-01, V-08",
+      "Retention code": "RET-03, RET-04, RET-01"
+    },
+    {
+      "Code": "PA-06",
+      "Activity": "Appointment and treatment communications",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-08, V-02",
+      "Retention code": "RET-07"
+    },
+    {
+      "Code": "PA-07",
+      "Activity": "CCTV",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-10",
+      "Retention code": "RET-06"
+    },
+    {
+      "Code": "PA-08",
+      "Activity": "Promotional communications (newsletter, consent-based)",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-08, V-02",
+      "Retention code": "RET-08"
+    },
+    {
+      "Code": "PA-09",
+      "Activity": "Data subject requests",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-07, request register",
+      "Retention code": "RET-09"
+    },
+    {
+      "Code": "PA-10",
+      "Activity": "Security incidents",
+      "Applies here": "Yes",
+      "Main systems / vendors": "Breach register",
+      "Retention code": "RET-10"
+    },
+    {
+      "Code": "PA-11",
+      "Activity": "HR and payroll",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-11, A-12, V-04",
+      "Retention code": "RET-11"
+    },
+    {
+      "Code": "PA-12",
+      "Activity": "Recruitment (spontaneous and advertised CVs)",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-07",
+      "Retention code": "RET-12"
+    },
+    {
+      "Code": "PA-13",
+      "Activity": "Website and cookies",
+      "Applies here": "Yes",
+      "Main systems / vendors": "A-09, V-07",
+      "Retention code": "RET-13"
+    }
+  ],
+  "params": [
+    {
+      "Parameter": "Response time to a data subject request",
+      "Value": "1 month (Art. 12(3)), clinic target 30 days, extendable by 2 months if complex"
+    },
+    {
+      "Parameter": "Breach notification to the authority",
+      "Value": "Within 72 hours of becoming aware, unless unlikely to result in risk"
+    },
+    {
+      "Parameter": "Internal escalation of a suspected incident",
+      "Value": "Immediately, to the incident lead (S-01)"
+    },
+    {
+      "Parameter": "Staff report of an incident",
+      "Value": "Immediately, at most 1 hour from noticing (working hours); deputy incident lead: Nurse C (S-03), who also calls the external privacy adviser if Dr. A is unreachable"
+    },
+    {
+      "Parameter": "Initial incident assessment",
+      "Value": "Within 24 hours of the report"
+    },
+    {
+      "Parameter": "Post-incident review",
+      "Value": "Within 30 days of closing the incident"
+    },
+    {
+      "Parameter": "Breach register retention",
+      "Value": "5 years from closing the incident (RET-10)"
+    },
+    {
+      "Parameter": "Vendor notification of a breach to the clinic",
+      "Value": "Without delay, within 24 hours of becoming aware (set in the Art. 28 agreement)"
+    },
+    {
+      "Parameter": "Reception forwards a patient request to the privacy contact",
+      "Value": "Within one working day"
+    },
+    {
+      "Parameter": "CCTV retention",
+      "Value": "7 days, absolute maximum 30 days"
+    },
+    {
+      "Parameter": "Promotional contacts",
+      "Value": "Until consent is withdrawn, maximum 24 months after last interaction or last consent confirmation"
+    },
+    {
+      "Parameter": "Staff training",
+      "Value": "On joining and annually; short role-based session (about 15–20 minutes extra for clinical and reception staff) plus a 5-question mini-test; record kept"
+    },
+    {
+      "Parameter": "Training format",
+      "Value": "New joiners: 45 minutes before they get access to data. Annual refresher: 45 minutes, held each December with the incident drill. Role part: 15–20 minutes extra. Mini-test: 5 questions drawn from a bank of 10. Records kept with the personnel file (RET-11(a)). First programme session: 19 January 2027"
+    },
+    {
+      "Parameter": "Incident drill",
+      "Value": "Annually, three rotating scenarios"
+    },
+    {
+      "Parameter": "Register reviews",
+      "Value": "ROPA and retention reviewed annually and on any new system or vendor"
+    },
+    {
+      "Parameter": "Access review",
+      "Value": "Periodically (clinic proposal: every 6 months; the security policy leaves the interval to be completed)"
+    },
+    {
+      "Parameter": "Destruction of records past retention",
+      "Value": "Once a year, logged in the destruction register"
+    },
+    {
+      "Parameter": "Backup rotation",
+      "Value": "Backups are overwritten after at most 3 months"
+    },
+    {
+      "Parameter": "Password rule",
+      "Value": "At least 12 characters or a passphrase, unique per account; password manager recommended"
+    },
+    {
+      "Parameter": "Two-step verification",
+      "Value": "Required for e-mail, cloud storage and the practice software where the provider offers it"
+    },
+    {
+      "Parameter": "Screen lock",
+      "Value": "Automatic after at most 5 minutes"
+    },
+    {
+      "Parameter": "Critical security updates",
+      "Value": "Applied within 7 days"
+    },
+    {
+      "Parameter": "Clinic's own backups (non-clinical files)",
+      "Value": "Weekly, encrypted, one copy kept off the premises; restore test quarterly"
+    },
+    {
+      "Parameter": "Maximum accepted downtime of the practice software",
+      "Value": "4 hours, then paper forms"
+    },
+    {
+      "Parameter": "Access-log spot check",
+      "Value": "Quarterly"
+    },
+    {
+      "Parameter": "Security baseline assessment",
+      "Value": "December 2026 (38 controls, status and owner per control); repeated yearly"
+    },
+    {
+      "Parameter": "Consent for marketing",
+      "Value": "Separate, opt-in, withdrawable at any time"
+    },
+    {
+      "Parameter": "Patient acknowledgement of the notice",
+      "Value": "Confirms reading only; not consent"
+    }
+  ],
+  "timeline": [
+    {
+      "When (fictional)": "2018",
+      "Event": "Practice founded"
+    },
+    {
+      "When (fictional)": "March 2025",
+      "Event": "Patient notice v1.0 drafted and put in use (only document in place)"
+    },
+    {
+      "When (fictional)": "November 2026",
+      "Event": "Baseline review: notice is solid, but there is no ROPA, retention schedule, rights procedure, incident process, security policy, vendor paper trail or staff notice"
+    },
+    {
+      "When (fictional)": "1 December 2026",
+      "Event": "Privacy program v1.0 adopted; notice v2.0 replaces v1.0"
+    },
+    {
+      "When (fictional)": "7 Dec 2026",
+      "Event": "DPIA procedure v1.0 adopted; screening SCR-2026-01 (CCTV: DPIA not required). 25 Mar 2027: SCR-2027-01 (website analytics, provisional)"
+    },
+    {
+      "When (fictional)": "December 2026",
+      "Event": "Vendor agreements signed, staff briefed (15 minutes), CCTV LIA and employee consultation done"
+    },
+    {
+      "When (fictional)": "June 2027",
+      "Event": "First access review"
+    },
+    {
+      "When (fictional)": "Oct–Nov 2027",
+      "Event": "AI consultation notes pilot: screening SCR-2027-02 Mon 11 Oct (DPIA required); patient comment box 18–29 Oct; provider answers 22 Oct; adviser advice Thu 4 Nov; DPIA-2027-01 approved with conditions Mon 8 Nov; conditions C1–C6 due Fri 12 Nov; pilot (Dr. A only) Mon 15 Nov – Fri 10 Dec; review Mon 13 Dec 2027. New provider label V-13 (AI Scribe Provider, processor); new activity PA-14 at go-live"
+    },
+    {
+      "When (fictional)": "December 2027",
+      "Event": "First annual review, training and incident drill"
+    }
+  ]
+}
